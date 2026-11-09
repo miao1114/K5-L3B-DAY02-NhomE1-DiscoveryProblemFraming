@@ -111,3 +111,8 @@ Chưa cập nhật.
 
 - `report/team/group_report.md`: mục 3.3, mục 6.1–6.4 (kèm ghi chú chi phí ở 6.2), mục 7; 5 nguồn ở mục 10.
 - Commit: _(điền link commit sau khi push)_
+
+**Điều mình học được từ phần nhóm:**
+Muốn tìm đúng bước nghẽn thì phải tách quy trình thành từng bước, có người làm, đầu vào, đầu ra và thời gian. Thời gian tua video ở đoạn công thức không có trong transcript cần đo riêng.
+Chỉ tìm ra khung hình công thức là chưa đủ: người học còn cần đoạn giảng liên quan, mốc thời gian và nguồn video để tự kiểm tra lại.
+Quy trình mới vẫn cần người xác nhận kết quả và cách quay về tìm thủ công khi hệ thống sai hoặc lỗi. Thời gian kiểm tra lại phải tính vào tổng thời gian tìm.
