@@ -169,16 +169,20 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Học viên AI20K xem lại video bài giảng (bản ghi, khoảng 90 phút) khi làm bài tập/lab, cần tìm lại một đoạn code hoặc phần giải thích đã học |
+| **Quy trình** | (1) Xác định nội dung cần tìm → (2) Tìm từ khóa trong transcript, nếu có → (3) Tua video, quan sát màn hình → (4) Xem và xác nhận đúng đoạn → (5) Ghi mốc, quay lại bài tập (chi tiết ở mục 4.1). Survey: 6/7 tua thủ công, chỉ 1/7 dùng transcript; 2/7 còn phải nhớ xem nội dung nằm ở video nào |
+| **Bottleneck** | Bước 3 – tua video tìm đúng đoạn (4/7 chọn là tốn thời gian nhất), cộng thêm việc nhớ nội dung nằm ở video nào (2/7). Transcript ít giúp được: 3/7 chưa từng dùng, 3/7 nhớ từ khóa khác lời giảng viên |
+| **Impact** | 2–5 phút/lần (5/7), 2–3 lần/tuần (5/7), tức khoảng 5–15 phút/tuần/người; tình huống khó nhất (phải tua tìm nội dung chỉ có trên bảng/slide) khoảng 7 phút/lần (mục 4.1). 2/7 không chắc đã tìm đúng đoạn nên có thể xem nhầm; việc tìm làm gián đoạn khi đang làm bài. Mức đáng giải quyết trung bình 3,7/5 |
+| **Success Metric** (baseline → target, cách đo) | Thời gian một lượt tìm (từ lúc bắt đầu tìm đến khi xác nhận đúng đoạn và quay lại bài): **2–5 phút thường gặp, 7 phút tình huống khó → không quá 2 phút** (mục 4.3); tỷ lệ "không chắc đúng đoạn": **2/7 → 0**. Cách đo: bấm giờ 10 lượt tìm thật trên video của khóa, trước và sau cải tiến, ghi đúng/sai từng lượt |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | Chỉ chỉ ra đoạn trong video gốc của khóa (mốc thời gian + khung hình); không tự giải thích hay tạo lại nội dung bài giảng; không có căn cứ thì báo "chưa tìm thấy". Học viên tự mở video xác nhận trước khi dùng (HITL); kết quả sai hoặc hệ thống lỗi thì quay về tìm transcript và tua thủ công. Chưa mở rộng sang gợi ý kiến thức liên quan |
+
+**Ghi chú đối chiếu với mục 4.1:** Quy trình 4.1 mô tả tình huống khó nhất của P4 ban đầu (tìm nội dung chỉ có trên bảng/slide, phải tua, ước tính 7 phút/lần). Survey CP4 (n = 7) cho thấy tình huống thường gặp nhẹ hơn: 2–5 phút/lần, nội dung cần tìm là đoạn code hoặc phần giải thích. Problem Statement v0 dùng số liệu survey làm baseline thường gặp và giữ 7 phút làm mốc tình huống khó.
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- AI (vai "PM hoài nghi"): baseline 2–5 phút là số tự báo cáo của 7 người, chưa bấm giờ thật. → **Đồng ý.** Ghi rõ là tự báo cáo; đo lại bằng 10 lượt bấm giờ thật.
+- AI: impact chỉ khoảng 5–15 phút/tuần, chưa chắc đáng dùng AI. → **Đồng ý một phần.** CP6 phải so sánh với No AI/Rule (ví dụ mục lục mốc thời gian theo chủ đề); có thể kết luận Not Yet.
+- AI: mục 4.1 dùng 7 phút/lần và tình huống tìm công thức, không khớp survey. → **Đồng ý.** Đã thống nhất với người phụ trách CP5: 4.1 ghi rõ 7 phút là tình huống khó nhất và bổ sung số liệu survey.
 
 ---
 
