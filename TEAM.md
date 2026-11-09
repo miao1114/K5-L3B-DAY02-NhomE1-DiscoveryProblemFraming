@@ -99,8 +99,15 @@ Chưa cập nhật.
 - CP3: hỗ trợ leader gom cluster, xây OST và bảng chấm điểm — mục 2.2–2.3 và bảng điểm mục 2.4.
 - CP5: hỗ trợ Hùng rà soát As-Is/To-Be, bottleneck, thời gian từng bước, boundary, fallback và bảng Before/After — mục 4.1–4.3.
 
-**Đóng góp cụ thể:** Chưa cập nhật.
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-**Bằng chứng:** Chưa cập nhật.
+- Tìm, tự mở và kiểm tra 4 nguồn: Panopto Smart Search, Google NotebookLM, Gemini video understanding, nghiên cứu EduVidQA (EMNLP 2025); ghi mỗi nguồn giải bước nào, còn bỏ trống bước nào.
+- Rút ra kết luận research: mức Rule (OCR + từ khóa) đã giải được một phần bài toán; công cụ chỉ dựa transcript không giải được ca công thức chỉ có trên bảng/slide; không tự xây agent, không tự huấn luyện mô hình.
+- So sánh 4 mức, chọn Workflow (chỉ dùng làm mẫu thử bằng công cụ sẵn có, khớp quyết định Not Yet), giải thích vì sao không chọn mức đơn giản hơn; dùng mục lục/bookmark làm baseline No AI.
+- Ước tính chi phí lập chỉ mục video (khoảng 0,4–2,4 USD/video), làm đầu vào cho dòng Viability ở mục 8.1.
+- Viết Problem Statement v1, bảng thay đổi v0 → v1 và 5 tiêu chí đánh giá trên bộ 20 yêu cầu tìm kiếm, dùng cùng ngưỡng với mục 8.2 (≥ 18/20 đúng trong top 3, thời gian trung vị dưới 2 phút, giảm ≥ 30% so với mục lục/bookmark).
 
-**Điều mình học được từ phần nhóm:** Chưa cập nhật.
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md`: mục 3.3, mục 6.1–6.4 (kèm ghi chú chi phí ở 6.2), mục 7; 5 nguồn ở mục 10.
+- Commit: _(điền link commit sau khi push)_
