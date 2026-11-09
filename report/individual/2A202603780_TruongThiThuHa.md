@@ -209,15 +209,27 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Tôi nhận ra một vấn đề nghiêm trọng với cá nhân chưa chắc đã phổ biến. Việc lựa chọn problem cần dựa trên tần suất, mức độ ảnh hưởng và bằng chứng thực tế thay vì cảm nhận chủ quan.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Nhóm từng tập trung vào OCR và speech-to-text trước khi xác thực nhu cầu. Sau đó, nhóm xây dựng Assumption Map và khảo sát người dùng để thu hẹp phạm vi vấn đề.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Ban đầu, tôi cho rằng AI giúp giảm thời gian debug notebook từ 90 xuống 20 phút là một ý tưởng tốt. Sau khi thảo luận, tôi nhận ra đây chỉ là giả định chưa được kiểm chứng và đồng ý chuyển sang nghiên cứu P4.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có. Khảo sát cho thấy 0/7 người mất trên 5 phút để tìm nội dung và không ai cần tìm công thức. Kết quả này trái với dự đoán ban đầu, khiến tôi nhận ra cần ưu tiên dữ liệu thay vì giả định.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là thu hẹp phạm vi vấn đề theo bằng chứng thực tế, phân biệt dữ liệu đã kiểm chứng với giả định và tránh phóng đại mức độ ảnh hưởng.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Tôi sẽ phỏng vấn trực tiếp người dùng sớm hơn, tập trung vào trải nghiệm thực tế. Khi phản biện, tôi sẽ hỏi kỹ hơn về bằng chứng chứng minh vấn đề đủ nghiêm trọng và thường xuyên để cần giải pháp AI.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
