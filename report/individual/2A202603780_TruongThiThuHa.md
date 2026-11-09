@@ -193,12 +193,13 @@ Tổng: 30 phút/lần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Tự liệt kê các vấn đề trước; dùng ChatGPT gợi ý thêm ý và dùng Claude chuyển ý thô sang mẫu Job Story "Khi… tôi muốn… để…" | Chuẩn hóa cách viết, chỉ ra dòng còn chứa chữ "AI" hoặc thiếu dấu hiệu thật | AI gợi ý "xây dựng AI Learning Assistant", là giải pháp chứ chưa phải vấn đề; các con số AI đưa ra chỉ là ước lượng chung | Bỏ ý giải pháp; tự thêm ví dụ thật (lab KNN và LLM ngày 06/11); ghi rõ số nào là ước tính |
+| CP2 Problem Card | Dùng Claude dựng khung 3 Problem Card và quy trình nháp; dùng ChatGPT đóng vai "PM hoài nghi" phản biện card #1 | Phản biện của ChatGPT chỉ ra baseline 90 phút chưa đo, thiếu phương án không dùng AI, rủi ro AI sửa sai làm học viên không hiểu bài | Khung do AI dựng để trống số phút, AI không biết trải nghiệm thật của tôi; một số phản biện chung chung, áp dụng cho card nào cũng được | Tự điền số phút từng bước theo trải nghiệm; giới hạn vai trò AI chỉ cho lỗi khó, gợi ý từng bước, không viết lại cả bài |
+| CP4 Research | Dùng Claude soạn câu hỏi survey theo The Mom Test và tạo Google Form, đếm và tổng hợp 7 phản hồi, tìm 5 công cụ tương tự kèm nguồn và làm 5 slide; dùng ChatGPT soạn kịch bản phỏng vấn | Tạo form nhanh, đếm số liệu chính xác, tìm được công cụ thật kèm link nguồn | ChatGPT tạo 2 bài "phỏng vấn mẫu" mang tính giả định, không phải dữ liệu thật; nhiều ô trong bảng so sánh công cụ chỉ ghi "chưa rõ" vì nguồn không nói | Không đưa phỏng vấn giả định vào bài, chọn survey thay phỏng vấn; giữ nguyên ô "chưa rõ" thay vì đoán; tự đọc kết quả survey và đề xuất thu hẹp problem |
+| CP5 Quy trình | Không phụ trách (Thành viên 4), không dùng AI cho phần này | — | — | — |
+| CP5–6 Problem Statement | Chưa thực hiện (đang làm v0) | — | — | — |
+| CP6 Mức can thiệp / quyết định | Dùng Claude để kiểm tra các câu phản biện của tôi về speech-to-text, OCR, khả năng trả tiền và ngưỡng sai số | Gợi ý boundary "AI chỉ trả mốc thời gian kèm ảnh khung hình gốc", và cách đo độ chính xác (tìm đúng trong top 3, lệch ≤ 30 giây) | Các ngưỡng (8/10, 30 giây) chỉ là đề xuất, chưa có dữ liệu thử thật | Ghi là đề xuất, chưa đưa vào bài nhóm; để Thành viên 3 quyết định sau khi thử trên video thật |
+| CP7 Tổng hợp đóng góp (mục 4) | Dùng ChatGPT chỉnh câu chữ bảng đóng góp | Câu văn rõ ràng, đủ ý | ChatGPT thêm đoạn "Tổng kết" và "Bài học rút ra" chung chung, không phải lời của tôi | Bỏ hai đoạn đó, chỉ giữ việc tôi đã làm thật |
 
 ---
 
