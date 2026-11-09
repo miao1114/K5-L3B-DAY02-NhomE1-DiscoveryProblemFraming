@@ -11,125 +11,117 @@
 
 ## 2. Scan problem (CP1)
 
-**Cơ sở:** 6 tình huống tham khảo và nguồn nghiên cứu liên quan. Số liệu thời gian, quy mô và bottleneck là **giả định chưa đo thực tế**; target là mục tiêu đề xuất.
+Các số liệu dưới đây là ước lượng ban đầu, chưa đo thực tế.
 
-| # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
+| # | Lăng kính | Job Story | Ai chịu ảnh hưởng? | Dấu hiệu |
 |---:|---|---|---|---|
-| 1 | Tốn thời gian; Pain từ người khác | **Tìm bước giải sai trong bài toán viết tay.** Khi chấm bài giải phương trình bậc hai viết tay của học sinh, tôi muốn xác định bước đầu tiên em làm sai và phân biệt lỗi tính toán với lỗi tư duy, để phản hồi đúng nguyên nhân và hướng dẫn em sửa bài. | Giáo viên Toán THCS; học sinh nhận phản hồi. | Phải đọc từng bước và đối chiếu rubric, kể cả cách giải khác mẫu. Ước tính **30 bài × 5 phút = 150 phút/đợt**; phạm vi ban đầu: **1 dạng bài**, phương trình bậc hai. |
-| 2 | Tốn thời gian | **Tìm lại đoạn kiến thức trong video bài giảng dài.** Khi làm bài tập và cần xem lại cách giảng viên giải thích một công thức trong video 90 phút, tôi muốn tìm đúng đoạn có công thức cùng phần giải thích liên quan, để tiếp tục làm bài mà không phải tua và xem lại từng đoạn. | Sinh viên học qua video; học viên khóa học trực tuyến. | Công thức chỉ hiện trên bảng/slide và không được đọc đầy đủ nên tìm từ khóa trong transcript không ra. **Giả định minh họa:** 150 học viên × 6 lần tìm/tháng × 7 phút/lần = **105 giờ/tháng** cho cả nhóm. [EduVidQA](https://aclanthology.org/2025.emnlp-main.1760/) có **5.252 cặp hỏi–đáp từ 296 video khoa học máy tính**, cung cấp bối cảnh nghiên cứu liên quan, chưa xác nhận thời gian tìm kiếm nêu trên. |
-| 3 | Lặp lại; Cần đọc, tổng hợp nhiều thông tin | **Chuẩn hóa đơn hàng bán sỉ từ tin nhắn, ảnh và ghi âm.** Khi nhận yêu cầu đặt hàng của đại lý qua nhiều dạng tin nhắn với tên gọi tắt hoặc nhắc lại đơn cũ, tôi muốn xác định đúng mã sản phẩm, số lượng và đơn vị tính, để nhập đơn đầy đủ và tránh giao nhầm hàng. | Nhân viên nhập đơn/bán hàng của nhà phân phối thực phẩm; đại lý; bộ phận kho. | Nhân viên phải đọc tin nhắn, xem ảnh, nghe ghi âm rồi tra mã và nhập lại vào phần mềm. [Case study HublerX](https://www.hublerx.ai/resources/case-study/gcc-food-wholesale-distributor-sap-quote-order-workflow) mô tả đơn hàng qua WhatsApp/email và thao tác nhập lại vào SAP; đây là thông tin do nhà cung cấp công bố. **Giả định minh họa:** 60 đơn/ngày × 26 ngày/tháng × 4 phút/đơn = **104 giờ/tháng**. |
-| 4 | Lặp lại; Pain từ người khác | **Bỏ lỡ thông báo quan trọng trong nhóm Zalo lớp.** Khi theo dõi nhiều nhóm Zalo của hai con đang học tiểu học, tôi muốn biết thông báo nào cần hành động, áp dụng cho con nào và hạn khi nào, để chuẩn bị đúng đồ dùng, nộp bài hoặc đóng khoản phí đúng hạn. | Phụ huynh có con học tiểu học; học sinh; giáo viên phải nhắc lại thông báo. | Tình huống trong ảnh gồm hạn nộp bài Mỹ thuật, mặc đồng phục thể dục, đóng tiền tham quan và đổi lịch học; phụ huynh phải tự đọc, lọc rồi ghi chú. **Giả định minh họa:** 10 phút/ngày × 22 ngày học/tháng = **220 phút, tức 3 giờ 40 phút/tháng/phụ huynh**. Chưa có nhật ký sử dụng hay số lần bỏ lỡ thông báo thực tế. |
-| 5 | Lặp lại | **Nhập lại chỉ số điện nước từ ảnh đồng hồ.** Khi chốt tiền điện nước cuối tháng cho khu trọ 40 phòng, tôi muốn đối chiếu chính xác chỉ số trong ảnh với phòng và kỳ trước, để tính đúng mức tiêu thụ, lập bảng thanh toán và có căn cứ giải thích khi người thuê thắc mắc. | Chủ trọ/người quản lý; người thuê của 40 phòng. | Quy trình hiện tại: mở ảnh → đọc số → nhập Excel → trừ chỉ số kỳ trước → tính tiền từng phòng; nhập sai một chữ số có thể gây tranh chấp. **Giả định minh họa:** 40 phòng × 2 đồng hồ/phòng × 2 phút đọc và nhập/đồng hồ + 40 phòng × 3 phút tính và lập bảng/phòng = **280 phút, khoảng 4,7 giờ/tháng**; chưa tính thời gian đi chụp ảnh. |
-| 6 | Tốn thời gian; Cần đọc, tổng hợp nhiều thông tin | **Tổng hợp yêu cầu chỉnh sửa video từ khách hàng.** Khi khách hàng gửi phản hồi cho bản dựng qua tin nhắn, ghi âm và ảnh chụp, rồi tiếp tục thay đổi yêu cầu, tôi muốn có danh sách chỉnh sửa mới nhất gắn với đúng mốc thời gian, để sửa đủ việc và tránh làm theo yêu cầu đã bị hủy. | Freelancer dựng video TikTok/quảng cáo; khách hàng duyệt bản dựng. | Trong tình huống tham khảo, phản hồi gồm rút ngắn phần mở đầu, sửa chữ tại 00:35, đổi font theo ảnh và sau đó hủy yêu cầu đổi nhạc; người dựng phải đối chiếu thứ tự phản hồi. **Giả định minh họa:** 15 video/tháng × 20 phản hồi/video × 2 phút đọc, xác định mốc thời gian và chuẩn hóa/phản hồi = **600 phút, tức 10 giờ/tháng**. Chưa đo trên dự án thực tế. |
+| 1 | Tốn thời gian | Khi chấm bài toán viết tay, tôi muốn biết học sinh sai từ bước nào, để hướng dẫn sửa bài. | Giáo viên, học sinh | Khoảng 5 phút/bài, 30 bài/đợt. |
+| 2 | Tốn thời gian | Khi làm bài tập, tôi muốn tìm lại đúng đoạn kiến thức trong video bài giảng, để tiếp tục làm bài. | Sinh viên | Khoảng 7 phút/lần tìm, 6 lần/tháng. |
+| 3 | Lặp lại | Khi nhận đơn bán sỉ qua tin nhắn, ảnh hoặc ghi âm, tôi muốn xác định đúng mặt hàng và số lượng, để tránh nhập sai đơn. | Nhân viên nhập đơn, đại lý | Khoảng 4 phút/đơn, 60 đơn/ngày. |
+| 4 | Pain từ người khác | Khi đọc nhóm Zalo lớp, tôi muốn biết thông báo nào cần làm và hạn khi nào, để không bỏ lỡ việc của con. | Phụ huynh, học sinh | Khoảng 10 phút/ngày đọc và ghi lại thông báo. |
+| 5 | Lặp lại | Khi tính tiền điện nước cuối tháng, tôi muốn đọc đúng chỉ số từ ảnh đồng hồ, để tính đúng tiền từng phòng. | Chủ trọ, người thuê | Khoảng 4,7 giờ/tháng cho 40 phòng. |
+| 6 | Cần đọc, tổng hợp nhiều thông tin | Khi khách gửi nhiều phản hồi sửa video, tôi muốn biết yêu cầu mới nhất, để sửa đủ và đúng ý khách. | Người dựng video, khách hàng | Khoảng 20 phản hồi/video, 2 phút xử lý/phản hồi. |
 
-**Dùng AI:** Chuẩn hóa Job Story, phân loại lăng kính, kiểm tra phép tính và tìm nguồn tham khảo. Giữ 6 vấn đề cụ thể; bỏ cách diễn đạt quá rộng như “AI chấm bài” và “trợ lý quản lý mọi thông báo”.
+**Dùng AI:** Hỗ trợ diễn đạt và phân loại 6 ý; bỏ các ý quá rộng như “trợ lý quản lý mọi thông báo”.
 
 ---
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
+Thời lượng là giả định cần kiểm chứng; target là mục tiêu đề xuất, chưa phải kết quả thực tế.
+
 ### Bảng chọn top 3
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Tìm bước giải sai trong bài toán viết tay (#1) | Actor rõ; có thể giới hạn ở phương trình bậc hai; kết quả đối chiếu được với giáo viên qua bước sai đầu tiên và loại lỗi. | Đọc chữ viết tay có đủ chính xác không? Giáo viên có thống nhất bước sai và loại lỗi không? Có thu thập được bài mẫu và rubric không? |
-| 2 | Tìm lại đoạn kiến thức trong video bài giảng dài (#2) | Pain cụ thể khi công thức chỉ xuất hiện trên hình; đo được thời gian tìm và mức độ đúng của đoạn trả về. | Mục lục và transcript có sẵn đã đủ chưa? Có truy cập được video và xác định được đoạn đúng để đánh giá không? |
-| 3 | Chuẩn hóa đơn hàng bán sỉ từ tin nhắn, ảnh và ghi âm (#3) | Công việc lặp lại; có trường dữ liệu rõ là SKU, số lượng, đơn vị; có thể so sánh với biểu mẫu đặt hàng chuẩn. | Đại lý có chấp nhận dùng biểu mẫu không? Có danh mục SKU, quy đổi đơn vị và lịch sử đơn hàng không? |
+| 1 | Tìm bước giải sai trong bài toán viết tay (#1) | Actor rõ, có thể đối chiếu kết quả với giáo viên. | Đọc chữ viết tay và nhận diện cách giải khác mẫu có chính xác không? |
+| 2 | Tìm lại kiến thức trong video bài giảng (#2) | Tình huống cụ thể, đo được thời gian tìm và độ đúng của đoạn. | Mục lục và transcript đã đủ chưa? |
+| 3 | Chuẩn hóa đơn hàng bán sỉ (#3) | Lặp lại thường xuyên, dữ liệu đầu ra rõ. | Có danh mục mã hàng và lịch sử để đối chiếu không? |
 
 ### Problem Card #1 — Tìm bước giải sai trong bài toán viết tay
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi chấm bài giải phương trình bậc hai viết tay của học sinh, tôi muốn xác định bước đầu tiên em làm sai và phân biệt lỗi tính toán với lỗi tư duy, để phản hồi đúng nguyên nhân và hướng dẫn em sửa bài. |
-| Actor | Giáo viên Toán THCS đang chấm bài tự luận về phương trình bậc hai. |
-| Thời điểm / bối cảnh | Sau bài tập hoặc bài kiểm tra; giáo viên có đề, bài giải viết tay và rubric, nhưng học sinh có thể dùng cách giải khác đáp án mẫu. Phạm vi ban đầu chỉ gồm bài giải phương trình bậc hai một ẩn trên ảnh rõ, đủ trang. |
-| Quy trình hiện tại (3–7 bước) | 1. Xem đề và rubric · 2. Đọc các dòng lời giải · 3. Kiểm tra từng phép biến đổi để tìm bước sai đầu tiên và phân loại lỗi · 4. Viết giải thích, gợi ý sửa · 5. Kiểm tra lại và ghi nhận xét. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3 mất **2 phút/bài** trong tổng **5 phút/bài**, vì phải kiểm tra tính hợp lệ của từng bước, kể cả cách giải khác mẫu. Cần bấm giờ để xác nhận thay vì mặc định đây là bước tốn nhất. |
-| Impact (nếu không giải thì sao) | Phản hồi chậm, thiếu giải thích nguyên nhân hoặc đánh dấu sai cách giải hợp lệ. Ước tính **30 bài × 5 phút = 150 phút/đợt** chấm và nhận xét. |
-| Success metric (baseline → target) | Baseline chưa đo; giả định **5 → không quá 3 phút/bài**, gồm thời gian giáo viên duyệt. Thử trên 30 bài chưa dùng để chỉnh prompt: ít nhất **90%** bài có lỗi được xác định đúng bước sai đầu tiên theo nhãn giáo viên; ít nhất **90%** đúng loại lỗi theo rubric; không đánh dấu sai bài đúng trong mẫu thử. Ghi riêng số bài ảnh khó đọc phải chuyển về xử lý thủ công. |
-| Phương án không dùng AI | Rubric theo từng phép biến đổi, danh mục lỗi thường gặp và mẫu nhận xét; yêu cầu học sinh trình bày mỗi bước trên một dòng. So sánh thời gian với phương án này trước khi kết luận cần AI. |
-| Giả thuyết về AI (nếu có) | Từ ảnh, đề và rubric, AI đề xuất vị trí bước sai đầu tiên, loại lỗi và giải thích có trích lại dòng liên quan. Không ép lời giải theo đúng thứ tự đáp án mẫu. Giáo viên duyệt và sửa; ảnh không rõ hoặc thiếu ngữ cảnh thì yêu cầu kiểm tra thủ công, không tự chấm điểm cuối cùng. |
-| Cảm nhận nhanh | **Workflow (giả thuyết):** nhận dữ liệu → AI đề xuất → giáo viên kiểm tra → ghi nhận xét. Cần so sánh với rubric và mẫu nhận xét trước khi chốt. |
-
-Quy trình nháp hiện tại:
+| Job Story | Khi chấm bài toán viết tay, tôi muốn tìm bước sai đầu tiên và nguyên nhân, để hướng dẫn học sinh sửa bài. |
+| Actor | Giáo viên Toán THCS. |
+| Thời điểm / bối cảnh | Sau bài tập hoặc kiểm tra; giới hạn ở phương trình bậc hai, có đề, ảnh bài giải rõ và tiêu chí chấm. |
+| Quy trình hiện tại | Xem đề → đọc bài giải → kiểm tra từng bước → viết hướng dẫn sửa → kiểm tra nhận xét. |
+| Bottleneck | Bước 3: tìm bước sai và phân loại lỗi, khoảng **2/5 phút/bài**. |
+| Impact | Phản hồi chậm hoặc chưa rõ nguyên nhân; khoảng **150 phút cho 30 bài**. |
+| Success metric | **5 → ≤ 3 phút/bài**, gồm giáo viên duyệt. Thử trên 30 bài: xác định đúng bước sai đầu tiên và loại lỗi ở ít nhất 90% bài có lỗi; không đánh dấu sai bài đúng trong mẫu. Nhãn đối chiếu do giáo viên xác nhận. |
+| Phương án không dùng AI | Tiêu chí chấm theo bước, danh mục lỗi thường gặp và mẫu nhận xét. |
+| Giả thuyết về AI | Đề xuất bước sai, loại lỗi và giải thích từ ảnh bài giải. Giáo viên duyệt; ảnh khó đọc chuyển về kiểm tra thủ công, không tự chấm điểm cuối cùng. |
+| Cảm nhận nhanh | **Workflow:** AI đề xuất → giáo viên kiểm tra → ghi nhận xét. |
 
 ```text
-HIỆN TẠI — giả định 5 phút/bài; 30 bài = 150 phút/đợt
+HIỆN TẠI — giả định 5 phút/bài
 
-[1 Xem đề + rubric: 0,5'] → [2 Đọc lời giải: 1']
-→ [3 Tìm bước sai đầu tiên + phân loại lỗi: 2'] ← BOTTLENECK GIẢ ĐỊNH
-→ [4 Viết giải thích + gợi ý sửa: 1'] → [5 Kiểm tra + ghi nhận xét: 0,5']
+[1 Xem đề + tiêu chí chấm: 0,5'] → [2 Đọc lời giải: 1']
+→ [3 Tìm bước sai + loại lỗi: 2'] ← BOTTLENECK
+→ [4 Viết hướng dẫn sửa: 1'] → [5 Kiểm tra nhận xét: 0,5']
 ```
 
-### Problem Card #2 — Tìm lại đoạn kiến thức trong video bài giảng dài
+### Problem Card #2 — Tìm lại kiến thức trong video bài giảng
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi làm bài tập và cần xem lại cách giảng viên giải thích một công thức trong video 90 phút, tôi muốn tìm đúng đoạn có công thức cùng phần giải thích liên quan, để tiếp tục làm bài mà không phải tua và xem lại từng đoạn. |
-| Actor | Sinh viên đang làm bài tập từ một video bài giảng Toán có transcript nhưng chưa có mục lục chi tiết. |
-| Thời điểm / bối cảnh | Sinh viên nhớ công thức xuất hiện trên bảng/slide nhưng không nhớ mốc thời gian; transcript không chứa đầy đủ công thức. Phạm vi ban đầu: một video 90 phút mà người học có quyền sử dụng. |
-| Quy trình hiện tại (3–7 bước) | 1. Xác định công thức/nội dung cần tìm · 2. Tìm từ khóa trong transcript · 3. Tua video và quan sát bảng/slide khi tìm từ khóa không ra · 4. Xem đoạn nghi ngờ để xác nhận có đúng phần giải thích cần tìm · 5. Ghi mốc thời gian và quay lại bài tập. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3 mất **4 phút/lần** trong tổng **7 phút/lần**, do phải xem hình ở nhiều mốc thời gian khi transcript không chứa công thức. |
-| Impact (nếu không giải thì sao) | Gián đoạn làm bài, mất thời gian tìm hoặc bỏ qua phần giải thích cần thiết. Theo giả định ở CP1: **6 lần/tháng × 7 phút = 42 phút/tháng/sinh viên**; 150 sinh viên tương đương **105 giờ/tháng**. Chưa xác nhận quy mô này bằng khảo sát. |
-| Success metric (baseline → target) | Baseline chưa đo; giả định **7 → không quá 2 phút/lần tìm**, tính đến khi người học xác nhận đúng đoạn. Với 20 câu hỏi có đoạn tham chiếu do người xem gán trước, ít nhất **18/20** câu có đoạn đúng trong 3 kết quả đầu; đoạn đúng phải chứa phần giải thích cần tìm, không chỉ có hình công thức. Ghi riêng thời gian và chi phí lập chỉ mục ban đầu. |
-| Phương án không dùng AI | Bổ sung mục lục theo mốc thời gian, tiêu đề slide, danh mục công thức và bookmark cá nhân; dùng tìm kiếm transcript hiện có. Kiểm tra xem mục lục chi tiết có giải quyết phần lớn nhu cầu hay không. |
-| Giả thuyết về AI (nếu có) | Phân tích transcript cùng khung hình bảng/slide để lập chỉ mục theo thời gian; khi nhận câu hỏi, trả về tối đa 3 đoạn kèm mốc bắt đầu–kết thúc và khung hình liên quan. Người học mở đoạn để xác nhận; khi không có căn cứ thì báo chưa tìm thấy. |
-| Cảm nhận nhanh | **Workflow (giả thuyết):** lập chỉ mục → tìm đoạn → hiển thị căn cứ → người học xác nhận. Có thể chọn **No AI/Rule** nếu mục lục và tìm kiếm từ khóa đã đủ. |
-
-Quy trình nháp hiện tại:
+| Job Story | Khi làm bài tập, tôi muốn tìm đúng đoạn giảng viên giải thích công thức, để tiếp tục làm bài mà không phải tua nhiều đoạn. |
+| Actor | Sinh viên học qua video bài giảng Toán. |
+| Thời điểm / bối cảnh | Video 90 phút có transcript nhưng công thức trên bảng/slide không được đọc đầy đủ; người học không nhớ mốc thời gian. |
+| Quy trình hiện tại | Xác định nội dung → tìm transcript → tua video → xem để xác nhận → lưu mốc thời gian. |
+| Bottleneck | Bước 3: tua và quan sát bảng/slide, khoảng **4/7 phút/lần tìm**. |
+| Impact | Gián đoạn làm bài; khoảng **7 phút/lần × 6 lần = 42 phút/tháng/sinh viên**. |
+| Success metric | **7 → ≤ 2 phút/lần**, tính đến khi xác nhận đúng đoạn. Với 20 yêu cầu có đoạn tham chiếu, ít nhất **18/20** có phần giải thích đúng trong 3 kết quả đầu. Ghi riêng thời gian và chi phí lập chỉ mục. |
+| Phương án không dùng AI | Mục lục theo thời gian, tiêu đề slide, danh mục công thức và bookmark. |
+| Giả thuyết về AI | Dùng transcript và khung hình để tìm đoạn, trả mốc thời gian cùng hình liên quan. Người học mở để xác nhận; thiếu căn cứ thì báo chưa tìm thấy. |
+| Cảm nhận nhanh | **Workflow:** lập chỉ mục → tìm đoạn → người học xác nhận. Chọn **No AI/Rule** nếu mục lục đã đủ. |
 
 ```text
-HIỆN TẠI — giả định 7 phút/lần tìm khi transcript không đủ
+HIỆN TẠI — giả định 7 phút/lần tìm
 
-[1 Xác định nội dung cần tìm: 0,5'] → [2 Tìm transcript: 1']
-→ [3 Tua video + quan sát bảng/slide: 4'] ← BOTTLENECK GIẢ ĐỊNH
-→ [4 Xem và xác nhận đúng phần giải thích: 1'] → [5 Ghi mốc + quay lại bài: 0,5']
+[1 Xác định nội dung: 0,5'] → [2 Tìm transcript: 1']
+→ [3 Tua video + xem bảng/slide: 4'] ← BOTTLENECK
+→ [4 Xác nhận đúng đoạn: 1'] → [5 Lưu mốc thời gian: 0,5']
 ```
 
-### Problem Card #3 — Chuẩn hóa đơn hàng bán sỉ từ tin nhắn, ảnh và ghi âm
+### Problem Card #3 — Chuẩn hóa đơn hàng bán sỉ
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi nhận yêu cầu đặt hàng của đại lý qua tin nhắn, ảnh hoặc ghi âm với tên gọi tắt hay nhắc lại đơn cũ, tôi muốn xác định đúng mã sản phẩm, số lượng và đơn vị tính, để nhập đơn đầy đủ và tránh giao nhầm hàng. |
-| Actor | Nhân viên tiếp nhận và nhập đơn bán sỉ của một nhà phân phối thực phẩm. |
-| Thời điểm / bối cảnh | Trong ngày làm việc, đại lý gửi yêu cầu không theo biểu mẫu, ví dụ “3 thùng sữa loại hôm trước”. Nhân viên có danh mục SKU, quy đổi đơn vị và lịch sử đơn hàng. Phạm vi thử ban đầu: một nhà phân phối, một nhóm sản phẩm; chưa tích hợp ghi đơn trực tiếp vào hệ thống bán hàng. |
-| Quy trình hiện tại (3–7 bước) | 1. Gom tin nhắn, ảnh và ghi âm thuộc cùng yêu cầu · 2. Đọc/nghe để tách các dòng hàng · 3. Tra tên gọi, ảnh hoặc lịch sử để xác định SKU và đơn vị · 4. Hỏi lại đại lý khi thiếu hoặc mâu thuẫn thông tin · 5. Nhập đơn vào phần mềm · 6. Đối chiếu lại trước khi chuyển xử lý. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Giả thuyết: bước 3 mất **1,5 phút/đơn** trong tổng **4 phút thao tác/đơn**, do tên gọi không trùng mã hàng và đơn vị thùng/lốc/hộp có thể khác nhau. Thời gian chờ đại lý trả lời được đo riêng, không nằm trong 4 phút này. |
-| Impact (nếu không giải thì sao) | Nhập chậm, nhầm SKU hoặc số lượng/đơn vị dẫn tới sửa đơn và giao sai. Theo giả định CP1: **60 đơn/ngày × 26 ngày × 4 phút = 104 giờ thao tác/tháng** cho tổng lượng đơn; chưa có số đo tỷ lệ nhập sai và chi phí xử lý lỗi. |
-| Success metric (baseline → target) | Baseline chưa đo; giả định **4 → không quá 2 phút thao tác/đơn**, gồm kiểm tra và sửa bản nháp. Trên 30 đơn thử đã có nhãn đối chiếu, ít nhất **95% dòng hàng** khớp đồng thời SKU, số lượng và đơn vị; tất cả trường hợp được gán nhãn thiếu/mâu thuẫn thông tin phải được yêu cầu xác nhận. Đo riêng thời gian chờ; chỉ xuất đơn đã được nhân viên duyệt. |
-| Phương án không dùng AI | Biểu mẫu đặt hàng có danh mục SKU và đơn vị cố định; bảng ánh xạ tên thường gọi; file Excel kiểm tra trường bắt buộc và quy đổi đơn vị theo quy tắc. Nếu đại lý chấp nhận biểu mẫu, ưu tiên thử cách này trước. |
-| Giả thuyết về AI (nếu có) | Trích xuất dòng hàng từ tin nhắn, ảnh và ghi âm, đề xuất SKU dựa trên danh mục và lịch sử được cung cấp, gắn căn cứ từ nội dung gốc. Không tự đoán khi “loại hôm trước” chưa có lịch sử để đối chiếu. Nhân viên xác nhận dòng chưa rõ, duyệt rồi xuất bảng đơn có cấu trúc; quy đổi đơn vị và kiểm tra tồn kho dùng dữ liệu/quy tắc của hệ thống. |
-| Cảm nhận nhanh | **Workflow (giả thuyết):** gom yêu cầu → AI trích xuất/đề xuất SKU → Rule kiểm tra → nhân viên duyệt → xuất đơn. **Rule** có thể đủ nếu đầu vào được chuẩn hóa bằng biểu mẫu. |
-
-Quy trình nháp hiện tại:
+| Job Story | Khi nhận đơn qua tin nhắn, ảnh hoặc ghi âm, tôi muốn xác định đúng mã hàng, số lượng và đơn vị, để tránh nhập sai và giao nhầm. |
+| Actor | Nhân viên nhập đơn của nhà phân phối thực phẩm. |
+| Thời điểm / bối cảnh | Đại lý đặt hàng không theo biểu mẫu, dùng tên tắt hoặc nhắc đơn cũ; thử trong một nhóm sản phẩm. |
+| Quy trình hiện tại | Gom yêu cầu → đọc/nghe → tra mã hàng → hỏi lại → nhập đơn → đối chiếu. |
+| Bottleneck | Bước 3: tra mã hàng, đơn vị và lịch sử, khoảng **1,5/4 phút thao tác/đơn**; chưa tính chờ đại lý. |
+| Impact | Chậm nhập đơn, dễ nhầm hàng; **60 đơn × 26 ngày × 4 phút = 104 giờ/tháng**. |
+| Success metric | **4 → ≤ 2 phút thao tác/đơn**, gồm duyệt và sửa. Thử trên 30 đơn có nhãn đối chiếu: ít nhất **95% dòng hàng** đúng đồng thời mã, số lượng và đơn vị; dòng thiếu/mâu thuẫn phải hỏi lại. |
+| Phương án không dùng AI | Biểu mẫu đặt hàng, bảng tên gọi–mã hàng và Excel kiểm tra đơn vị. |
+| Giả thuyết về AI | Trích xuất dòng hàng, đề xuất mã theo danh mục và lịch sử. Thiếu căn cứ thì hỏi lại; nhân viên duyệt trước khi xuất đơn. |
+| Cảm nhận nhanh | **Workflow:** AI trích xuất → Rule kiểm tra → nhân viên duyệt. **Rule** có thể đủ khi dùng biểu mẫu chuẩn. |
 
 ```text
-HIỆN TẠI — giả định 4 phút thao tác/đơn; chưa tính chờ đại lý
+HIỆN TẠI — giả định 4 phút thao tác/đơn, chưa tính chờ trả lời
 
-[1 Gom nội dung cùng đơn: 0,25'] → [2 Đọc/nghe, tách dòng hàng: 0,75']
-→ [3 Tra SKU + đơn vị + lịch sử: 1,5'] ← BOTTLENECK GIẢ ĐỊNH
-→ [4 Soạn câu hỏi xác nhận nếu cần: 0,25']
-→ [5 Nhập phần mềm: 0,75'] → [6 Đối chiếu lại: 0,5']
-
-Thời gian chờ trả lời: ghi riêng khi có phát sinh.
-Các thời lượng là giả định trung bình phân bổ trên mỗi đơn.
+[1 Gom yêu cầu: 0,25'] → [2 Đọc/nghe: 0,75']
+→ [3 Tra mã hàng + đơn vị + lịch sử: 1,5'] ← BOTTLENECK
+→ [4 Soạn câu hỏi nếu cần: 0,25'] → [5 Nhập đơn: 0,75']
+→ [6 Đối chiếu: 0,5']
 ```
+
 ### Card muốn pitch nhất
 
-- **Card số:** #2 — Tìm lại đoạn kiến thức trong video bài giảng dài.
-- **Vì sao:** Tình huống cụ thể: sinh viên cần tìm lại phần giải thích công thức nhưng transcript không chứa đầy đủ nội dung trên bảng/slide. Có thể giới hạn thử nghiệm ở một video 90 phút và đo thời gian tìm, độ đúng của đoạn trả về.
-- **Câu hỏi muốn nhóm phản biện:** Thế nào là tìm đúng phần giải thích, và thời gian tiết kiệm có bù được công sức lập chỉ mục video không?
+- **Card số:** #2 — Tìm lại kiến thức trong video bài giảng.
+- **Vì sao:** Phạm vi rõ, gần bối cảnh học tập; đo được thời gian tìm và độ đúng của đoạn.
+- **Câu hỏi muốn nhóm phản biện:** Mục lục đã đủ chưa? Thời gian tiết kiệm có bù công sức lập chỉ mục không?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Thời gian 7 phút/lần và tần suất 6 lần/tháng chưa được đo thực tế. | Đồng ý | Ghi rõ số liệu là giả định, baseline chưa đo; bổ sung hướng kiểm chứng bằng quan sát thao tác và tách thời gian tìm đoạn khỏi thời gian học lại kiến thức. |
-| Ước tính 105 giờ/tháng giả định cả 150 học viên đều gặp vấn đề với cùng tần suất. | Đồng ý | Ghi impact là ước tính chưa được khảo sát xác nhận; cần đo tỷ lệ người thực sự gặp vấn đề trước khi suy rộng cho cả lớp. |
-| Chưa chứng minh cần AI vì mục lục và bookmark có thể đã đủ. | Đồng ý | Bổ sung phương án không dùng AI gồm mục lục, tiêu đề slide và bookmark; giữ lựa chọn No AI/Rule nếu các cách này đáp ứng nhu cầu. |
-| Tìm thấy hình công thức chưa chắc tìm đúng phần giải thích cần xem. | Đồng ý | Làm rõ tiêu chí: đoạn trả về phải chứa phần giải thích liên quan; đo thời gian đến khi người học xác nhận đúng đoạn, không chỉ đến khi có kết quả. |
-| Một video và 20 câu hỏi chưa đủ để khái quát cho nhiều bài giảng. | Đồng ý một phần | Giữ mẫu này cho thử nghiệm ban đầu; bổ sung yêu cầu tách câu hỏi đánh giá khỏi câu hỏi dùng để điều chỉnh và mở rộng video nếu tiếp tục kiểm chứng. |
-| Chưa tính công sức và chi phí lập chỉ mục video. | Đồng ý | Bổ sung yêu cầu ghi riêng thời gian, chi phí lập chỉ mục và đối chiếu với số lượt tìm thực tế để đánh giá lợi ích. |
+| Thời gian và tần suất tìm chưa được đo. | Đồng ý | Ghi rõ là giả định; bỏ ước tính suy rộng cho 150 học viên. |
+| Chưa chứng minh cần AI. | Đồng ý | Thêm phương án mục lục/bookmark và lựa chọn No AI/Rule. |
+| Có công thức chưa chắc có đúng phần giải thích. | Đồng ý | Yêu cầu đoạn chứa phần giải thích; đo đến lúc người học xác nhận. |
+| Mẫu thử nhỏ và chưa tính chi phí lập chỉ mục. | Đồng ý một phần | Giới hạn kết luận ở thử nghiệm ban đầu; thêm yêu cầu đo thời gian và chi phí lập chỉ mục. |
 
 ---
 
