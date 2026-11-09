@@ -78,20 +78,18 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Học viên phải tìm lại một đoạn cụ thể trong video bài giảng ít nhất 1 lần/tuần | Value | 5 | 1 | ✅ |
-| 2 | Mỗi lần tìm mất trên 5 phút | Value | 5 | 1 | ✅ |
-| 3 | Tìm theo transcript/từ khóa thất bại vì nội dung chỉ có trên slide hoặc bảng, không được đọc ra | Value | 4 | 2 | ✅ |
-| 4 | Học viên chưa có cách khác đủ tốt (slide PDF, ghi chú, hỏi bạn/coach, mốc thời gian) | Value | 4 | 1 | ✅ |
+| 1 | Học viên phải tìm lại một đoạn cụ thể trong video bài giảng ít nhất 1 lần/tuần | Value | 5 | 4 | ✅ Xác nhận: 7/7, 5/7 từ 2–3 lần/tuần |
+| 2 | Mỗi lần tìm mất trên 5 phút | Value | 5 | 4 | ❌ Phản bác: 0/7 trên 5 phút, 5/7 từ 2–5 phút |
+| 3 | Tìm theo transcript/từ khóa thất bại vì nội dung chỉ có trên slide hoặc bảng, không được đọc ra | Value | 4 | 3 | ⚠️ Đúng một phần: 2/7; chỉ 1/7 dùng transcript |
+| 4 | Học viên chưa có cách khác đủ tốt (slide PDF, ghi chú, hỏi bạn/coach, mốc thời gian) | Value | 4 | 3 | ⚠️ 6/7 vẫn tua tay, nhưng 5/7 vẫn tìm được; 3/7 dùng ChatGPT |
 | 5 | Speech-to-text và OCR đủ chính xác với giọng giảng viên, chữ viết tay và công thức trên bảng | Feasibility | 5 | 1 | Thử 10 câu trên 1 video thật |
-| 6 | Nhà trường cho phép xử lý video bài giảng và sẵn sàng chi trả cho tính năng tìm kiếm | Viability | 4 | 2 | Hỏi coach sau lab |
+| 6 | Nhà trường cho phép xử lý video bài giảng và sẵn sàng chi trả cho tính năng tìm kiếm | Viability | 4 | 3 | Hỏi coach sau lab; survey: 7/7 học viên đã trả tiền cho AI học tập |
 
 **Giả định nhóm kiểm chứng trong buổi này:** #1, #2, #3, #4, vì quan trọng cao nhưng chưa có bằng chứng. #5 kiểm chứng bằng bộ thử 10 câu (mục 7); #6 hỏi coach sau buổi lab.
 
-Giả định nhóm kiểm chứng trong buổi này:
-
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Survey (Google Form ẩn danh, 12 câu hỏi về hành vi đã xảy ra, gửi học viên AI20K ở nhóm khác, 09/11/2026: https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform) · Phỏng vấn: đang thực hiện
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
@@ -104,13 +102,30 @@ Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file 
 | Mất bao lâu, bao lần? | |
 | Insight / opportunity rút ra | |
 
+Kết quả survey (n = 7):
+
+| Câu hỏi | Kết quả |
+|---|---|
+| Có xem lại video bài giảng trong 2 tuần qua | 7/7 có; lần tìm gần nhất: 4/7 hôm nay, 3/7 tuần trước |
+| Số lần tìm lại trong 1 tuần | 5/7 từ 2–3 lần; 2/7 1 lần |
+| Thời gian mỗi lần | 5/7 từ 2–5 phút; 2/7 dưới 2 phút; 0/7 trên 5 phút |
+| Kết quả tìm | 5/7 tìm được; 2/7 tìm được nhưng không chắc đúng đoạn; 0/7 bỏ cuộc |
+| Cách đã dùng (chọn nhiều) | 6/7 tua thủ công; 3/7 xem slide PDF; 3/7 hỏi ChatGPT/AI; 2/7 ghi chú; 2/7 hỏi bạn/coach; 1/7 transcript |
+| Bước tốn thời gian nhất | 4/7 tua tìm đúng đoạn; 2/7 nhớ nội dung ở buổi/video nào; 1/7 xem lại để hiểu |
+| Lý do transcript không ra (chọn nhiều) | 3/7 chưa từng dùng transcript; 3/7 từ khóa khác lời giảng viên; 2/7 nội dung chỉ có trên slide/bảng; 2/7 video không có transcript |
+| Nội dung cần tìm | Đoạn code, giải thích code, giải thích khái niệm (BoW), hướng dẫn thao tác Word; không ai nhắc tới công thức |
+| Cách tự đối phó | 3/7 chụp màn hình; 1/7 ghi chú; 4/7 để trống |
+| Đã trả tiền cho công cụ hỗ trợ học (3 tháng) | 7/7 ChatGPT Plus hoặc AI trả phí; 1/7 thêm app ghi chú/học tập trả phí |
+| Mức đáng giải quyết (1–5) | Trung bình 3,7; 5/7 chấm ≥ 4 |
+
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Survey | 7 | 7/7 phải tìm lại đoạn trong video, 5/7 từ 2–3 lần/tuần (xác nhận giả định #1); 6/7 vẫn tua thủ công, 2/7 không chắc tìm đúng đoạn (xác nhận #4); 7/7 đã trả tiền cho AI học tập (ủng hộ #6) | 0/7 mất trên 5 phút mỗi lần (phản bác #2); chỉ 2/7 gặp nội dung chỉ có trên slide/bảng và chỉ 1/7 thật sự dùng transcript (#3 đúng một phần); không ai cần tìm công thức; 3/7 đã dùng ChatGPT để tìm (đã có cách thay thế) |
+| Phỏng vấn | | | |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+**Nhóm đã sửa problem thế nào sau kiểm chứng:** Survey xác nhận việc tìm lại nội dung trong video là có thật và lặp lại 2–3 lần/tuần, nhưng mỗi lần chỉ mất 2–5 phút (thấp hơn mức 7 phút nhóm ước tính) và hầu như ai cũng tìm được. Điểm nghẽn chính là tua thủ công và nhớ nội dung nằm ở video nào, không phải việc transcript bỏ sót công thức trên bảng (chỉ 2/7 gặp, 1/7 dùng transcript). Vì vậy nhóm thu hẹp problem từ "không tìm được công thức chỉ có trên bảng" thành "mất thời gian định vị đoạn code/giải thích cần xem lại trong nhiều video bài giảng", và hạ ước tính impact xuống khoảng 5–15 phút/tuần/người. Vì 3/7 đã dùng ChatGPT để tìm, nhóm sẽ so sánh với phương án No AI/Rule (mục lục mốc thời gian theo chủ đề, bật transcript) trước khi chọn mức AI.
 
 ### 3.3. Research giải pháp đã có
 
