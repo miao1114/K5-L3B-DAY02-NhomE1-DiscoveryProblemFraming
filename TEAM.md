@@ -3,7 +3,7 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhóm E1
-- Candidate problem nhóm chọn (1 câu): Sinh viên mất thời gian tìm lại đúng đoạn kiến thức trong video bài giảng dài, nhất là khi công thức trên bảng/slide không có đầy đủ trong transcript.
+- Candidate problem nhóm chọn (1 câu): Học viên AI20K mất thời gian định vị đoạn code hoặc phần giải thích cần xem lại trong video bài giảng; ưu tiên kiểm chứng mục lục và transcript theo kết quả survey.
 - Quyết định cuối (Go / Not Yet / No-Go): **Not Yet** — kiểm chứng nhu cầu và khả năng tìm đúng đoạn trước khi xây dựng giải pháp AI.
 
 ## Thành viên
@@ -12,7 +12,7 @@
 |---:|---|---|---|---|
 | 1 | Nguyễn Đức Minh | 2A202603765 | Leader; CP3 hội tụ nhóm; CP6 quyết định; tổng hợp báo cáo | miao1114 |
 | 2 | Phạm Thế Hùng | 2A202603778 | Phân tích quy trình CP5; hỗ trợ Leader ở CP3 | thehung1406 |
-| 3 | Trương Thị Thu Hà | 2A202603780 | Phân công ban đầu: CP4 research và CP6; đóng góp thực tế chờ cập nhật | TruongThuHa |
+| 3 | Trương Thị Thu Hà | 2A202603780 | CP4 Assumption Map và survey; CP5 Problem Statement v0; research và phản biện hỗ trợ CP6 | TruongThuHa |
 | 4 | Đào Thị Ngọc Ánh | 2A202603790 | CP4 research; CP6 mức can thiệp, Problem Statement v1 và tiêu chí đánh giá; tham gia chọn candidate | daoanh9503 |
 
 ## Phân công theo checkpoint
@@ -20,18 +20,18 @@
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Nguyễn Đức Minh | Đào Thị Ngọc Ánh; Phạm Thế Hùng hỗ trợ gom problem và làm OST; cả nhóm tham gia pitch và phản biện | Tổng hợp 12 problem, tổ chức pitch, gom cluster, xây OST, chấm 3 candidate và viết lý do chọn — mục 2 của `group_report.md` |
-| CP4 — Kiểm chứng | Chưa phân công lại | | 4–6 giả định, câu hỏi, phỏng vấn/khảo sát người thật; kết quả và bằng chứng xác nhận/phản bác — mục 3.1–3.2 |
-| CP4 — Research | Đào Thị Ngọc Ánh | | Bảng đối chiếu 4 nguồn: Panopto, NotebookLM, Gemini API và EduVidQA; kết luận research — mục 3.3 |
+| CP4 — Kiểm chứng | Trương Thị Thu Hà | | Assumption Map 6 giả định; Google Form 12 câu, 7 phản hồi từ học viên nhóm khác; kết quả xác nhận/phản bác và điều chỉnh problem — mục 3.1–3.2 |
+| CP4 — Research | Đào Thị Ngọc Ánh | Trương Thị Thu Hà: nghiên cứu 5 công cụ, bộ 5 slide gửi tham khảo theo nhật ký cá nhân | Bảng đối chiếu 4 nguồn và kết luận — mục 3.3; phần research bổ sung của Hà được ghi nhận trong báo cáo cá nhân, chưa có file slide trong repo |
 | CP5 — Quy trình trước/sau | Phạm Thế Hùng | Đào Thị Ngọc Ánh | Trực tiếp điền mục 4.1–4.3: As-Is, To-Be, actor, input/output, bottleneck, thời gian từng bước, bước người học kiểm tra, boundary, fallback, hai ảnh quy trình và bảng Before/After |
-| CP5 — Problem Statement v0 | Chưa phân công lại | | Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary — mục 5 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Đào Thị Ngọc Ánh | | Ma trận, so sánh 4 mức, ghi chú chi phí, AI Canvas, PAIR — mục 6.1–6.4; Problem Statement v1, bảng thay đổi dự kiến và 5 tiêu chí đánh giá — mục 7 |
+| CP5 — Problem Statement v0 | Trương Thị Thu Hà | | Bản v0 dựa trên survey: Actor, Quy trình, Bottleneck, Impact, Success Metric, Boundary và phản biện — mục 5; bản nháp cần nhóm rà soát |
+| CP6 — Mức can thiệp + Problem Statement v1 | Đào Thị Ngọc Ánh | Trương Thị Thu Hà: phản biện speech-to-text, OCR, phạm vi, nhu cầu trả phí và ngưỡng chính xác | Ma trận, so sánh 4 mức, ghi chú chi phí, AI Canvas, PAIR — mục 6.1–6.4; Problem Statement v1, bảng thay đổi dự kiến và 5 tiêu chí đánh giá — mục 7 |
 | CP6 — Quyết định | Nguyễn Đức Minh | | Phân tích Value, Usability, Feasibility, Viability; quyết định Go/Not Yet/No-Go, lý do, bước tiếp theo và ngưỡng dừng — mục 8 |
 
 **Tổng hợp:** Nguyễn Đức Minh phụ trách mục 1, 9, 10, kiểm tra toàn bài và cập nhật `TEAM.md`; đây là nhiệm vụ bổ sung ngoài CP3 và CP6.
 
-**Cập nhật phạm vi của Hùng:** Phần đã thực hiện được ghi nhận tại mục 4.1–4.3 và hai ảnh quy trình. CP3 là phần hỗ trợ theo phân công. CP4 kiểm chứng và Problem Statement v0 chưa có đóng góp được ghi nhận của Hùng; nhóm cần phân công lại hai phần này. Vai trò hỗ trợ của Ánh là phân công, chưa phải xác nhận đã hoàn thành.
+**Cập nhật phạm vi của Hùng:** Phần đã thực hiện được ghi nhận tại mục 4.1–4.3 và hai ảnh quy trình. CP3 là phần hỗ trợ theo phân công. CP4 kiểm chứng và Problem Statement v0 do Hà đóng góp. Vai trò hỗ trợ CP5 của Ánh là phân công, chưa phải xác nhận đã hoàn thành.
 
-**Cập nhật phạm vi của Ánh:** Nội dung từ `report/team/group_report_DaothiNgocAnh.md` đã được tích hợp vào mục 3.3, mục 6, mục 7 và tài liệu tham khảo mục 10 của báo cáo chính. Đây là các phần có sản phẩm được ghi nhận của Ánh, thay cho phân công ban đầu giao Hà; đóng góp riêng của Hà cần cập nhật theo sản phẩm thực tế. Ánh cung cấp đầu vào về chi phí/quyền sử dụng video; Minh vẫn phụ trách quyết định tại mục 8. Các ngưỡng đánh giá và ước tính chi phí trong bản đóng góp còn cần kiểm chứng, thống nhất.
+**Cập nhật phạm vi của Ánh và Hà:** Ánh đóng góp mục 3.3, 6, 7 và các nguồn tại mục 10. Hà đóng góp mục 3.1–3.2 và mục 5; nhật ký cá nhân còn ghi nhận research bổ sung và phản biện CP6. Minh phụ trách tổng hợp quyết định tại mục 8 và biên tập bản chung. Bản chung đã thống nhất phạm vi sau survey và bộ thử tại mục 7–8; chi phí được giữ là thông tin cần đo, không dùng ước tính chưa kiểm chứng.
 
 ## Cá nhân
 
@@ -51,7 +51,7 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 - Tổng hợp 12 candidate của nhóm, chia thành 4 cluster, trình bày OST, bảng shortlist và lý do chọn/loại các hướng — mục 2.1–2.4.
 - Tổng hợp phần quyết định: đánh giá 4 rủi ro Value, Usability, Feasibility, Viability; trình bày kết luận **Not Yet**, kế hoạch kiểm chứng và ngưỡng dừng — mục 8.1–8.2.
 - Tích hợp phần quy trình CP5 của Hùng và phần research, mức can thiệp, Problem Statement v1 của Ánh vào báo cáo chung; giữ rõ phần đóng góp của từng người.
-- Tổng hợp thông tin nhóm, hạn chế, hướng tiếp theo và tài liệu tham khảo — mục 1, 9, 10; cập nhật bảng phân công và bằng chứng trong `TEAM.md`. Ghi chú các ngưỡng đánh giá chưa thống nhất giữa mục 7 và mục 8 để nhóm rà soát.
+- Tổng hợp thông tin nhóm, hạn chế, hướng tiếp theo và tài liệu tham khảo — mục 1, 9, 10; cập nhật bảng phân công và bằng chứng trong `TEAM.md`. Biên tập bản chung theo bài mẫu, thống nhất phạm vi sau survey và ngưỡng đánh giá giữa mục 7 và mục 8.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
@@ -95,11 +95,24 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 
 **Phần việc phụ trách:**
 
-- Phân công ban đầu: CP4 research và CP6 — mục 3.3, 6–7. Các phần này đã có bản đóng góp của Ánh được tích hợp; phần việc và đóng góp riêng của Hà chờ cập nhật theo thực tế.
+- CP4: xây dựng Assumption Map và kiểm chứng bằng survey — mục 3.1–3.2; research bổ sung gửi người phụ trách tổng hợp tham khảo.
+- CP5: xây dựng Problem Statement v0 dựa trên kết quả survey — mục 5.
+- CP3/CP6: tham gia chọn candidate và phản biện tính khả thi, phạm vi, nhu cầu trả phí, độ chính xác; phần tổng hợp CP6 do Ánh thực hiện.
 
-**Đóng góp cụ thể:** Chưa cập nhật.
+**Đóng góp cụ thể:**
 
-**Bằng chứng:** Chưa cập nhật.
+- Xây dựng 6 giả định và Google Form 12 câu; theo bản đóng góp, thu thập 7 phản hồi từ học viên AI20K nhóm khác ngày 09/11/2026, tổng hợp tín hiệu xác nhận/phản bác.
+- Chỉ ra 0/7 người tự báo cáo mất trên 5 phút và không ai nêu nhu cầu tìm công thức; đề xuất chuyển trọng tâm sang định vị đoạn code/phần giải thích và so sánh với mục lục, transcript trước khi dùng AI.
+- Viết bản nháp Problem Statement v0 với baseline tự báo cáo, mục tiêu, cách đo, boundary và phản biện; giữ rõ số liệu chưa được bấm giờ thực tế.
+- Theo nhật ký cá nhân, nghiên cứu Panopto, NotebookLM, Ask YouTube, ClassTranscribe và TwelveLabs; chuẩn bị 5 slide gửi tham khảo. Chưa có file slide trong repo để dẫn bằng chứng trực tiếp.
+- Pitch card debug notebook và nêu 4 nhóm câu hỏi về speech-to-text/OCR, gợi ý kiến thức liên quan, nhu cầu trả phí và ngưỡng sai số. Không ghi nhận thay cho phần xây dựng quy trình của Hùng hoặc quyết định của Minh.
+
+**Bằng chứng:**
+
+- [Assumption Map — mục 3.1](report/team/group_report.md#31-assumption-map) và [survey — mục 3.2](report/team/group_report.md#32-kiểm-chứng).
+- [Problem Statement v0 — mục 5](report/team/group_report.md#5-problem-statement-v0-cp5).
+- [Báo cáo cá nhân của Hà — mục 4–5](report/individual/2A202603780_TruongThiThuHa.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7); nội dung bản đóng góp riêng đã được tích hợp vào báo cáo chung tại mục 3.1–3.2 và mục 5.
+- [Google Form](https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform) và [PR #1](https://github.com/miao1114/K5-L3B-DAY02-NhomE1-DiscoveryProblemFraming/pull/1) theo minh chứng Hà cung cấp; link form là bảng hỏi, chưa thay thế bản xuất phản hồi ẩn danh.
 
 **Điều mình học được từ phần nhóm:** Chưa cập nhật.
 
