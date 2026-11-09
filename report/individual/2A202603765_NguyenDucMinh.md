@@ -129,16 +129,16 @@ HIỆN TẠI — giả định 4 phút thao tác/đơn, chưa tính chờ trả 
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Đưa ra 3 card: tìm bước giải sai, tìm kiến thức trong video và chuẩn hóa đơn bán sỉ. Card tôi muốn pitch nhất là tìm kiến thức trong video. | Card #2 được nhóm chọn để phân tích tiếp; nội dung tổng hợp ở mục 2.1 báo cáo nhóm. |
+| Phản biện bài của bạn khác | Chưa ghi lại câu hỏi cụ thể tôi đã trực tiếp đặt; cần tự bổ sung theo buổi thảo luận. | Các câu hỏi tham khảo trong báo cáo nhóm chưa được tính là câu hỏi do tôi đã đặt. |
+| Nhận phản biện | Báo cáo nhóm ghi nhận lo ngại về chi phí xây dựng và vận hành AI cho card chấm toán. Bảng phản biện AI ở mục 3 cũng chỉ ra baseline chưa đo và chưa chứng minh cần AI. | Giữ số liệu ở dạng giả định, thêm phương án không dùng AI và yêu cầu kiểm tra kết quả. Câu hỏi nguyên văn nhận từ bạn khác chưa được ghi lại. |
+| Gom cluster / cây OST | Tổng hợp 12 candidate thành 4 cluster ở mục 2.2; trình bày OST cho bài toán tìm kiến thức trong video ở mục 2.3. | Tách nhu cầu tìm đúng đoạn khỏi các ý giải pháp như chatbot hay tự tạo mục lục. |
+| Chọn candidate problem | Tổng hợp bảng shortlist, lý do chọn và lý do chưa chọn các hướng khác ở mục 2.4. | Nhóm chọn bài toán video vì gần bối cảnh học tập và có thể giới hạn phạm vi thử nghiệm. |
+| Kiểm chứng / research | Dùng tài liệu tham khảo trong báo cáo để nêu rủi ro kỹ thuật ở mục 8. Chưa có dữ liệu phỏng vấn hoặc khảo sát được cập nhật ở mục 3. | Giữ kết luận ở mức cần kiểm chứng, chưa khẳng định người dùng thật sự cần giải pháp AI. |
+| Quy trình nhóm | Tổng hợp phần quy trình CP5 do Hùng chuẩn bị vào báo cáo chính và cập nhật phân công trong TEAM.md. | Báo cáo có As-Is/To-Be, bảng Before/After và hai ảnh quy trình; phần trực tiếp xây dựng CP5 được ghi nhận cho Hùng. |
+| Problem Statement | Theo phân công, tôi tổng hợp báo cáo; chưa có đóng góp riêng được ghi nhận ở phần viết Problem Statement. | Mục 5 và 7 vẫn cần hoàn thiện, đối chiếu với quy trình và metric. |
+| Mức can thiệp AI | Trong phần quyết định, giữ yêu cầu so sánh phương án AI với mục lục và bookmark trước khi xây dựng. | Workflow ở CP5 là đề xuất; phần so sánh đầy đủ tại CP6 do Hà phụ trách và chưa hoàn thiện. |
+| Quyết định | Tổng hợp 4 rủi ro, kết luận Not Yet, bước tiếp theo và ngưỡng dừng ở mục 8. | Chưa xây sản phẩm ngay; đề xuất kiểm chứng nhu cầu và thử khả năng tìm đúng đoạn trước. |
 
 ---
 
@@ -146,12 +146,13 @@ HIỆN TẠI — giả định 4 phút thao tác/đơn, chưa tính chờ trả 
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dùng AI hỗ trợ diễn đạt và phân loại 6 ý. | Giúp viết rõ người gặp vấn đề và việc họ muốn làm. | Ý quá rộng và số liệu ước lượng chưa chứng minh pain thật. | Bỏ ý “trợ lý quản lý mọi thông báo”, ghi rõ số liệu chưa đo thực tế. |
+| CP2 Problem Card | Dùng AI phản biện 3 card và rà soát cách đo. | Chỉ ra thiếu sót về baseline, độ đúng và phương án không dùng AI. | Dễ coi tìm được hình công thức là đã tìm đúng phần giải thích; chưa tính công lập chỉ mục. | Bổ sung người học xác nhận, ghi riêng công lập chỉ mục và giữ lựa chọn No AI/Rule. |
+| CP4 Research | Chưa có nhật ký riêng về việc dùng AI cho research CP4. | Chưa ghi nhận. | Chưa có dữ liệu kiểm chứng người dùng để kết luận. | Không điền kết quả phỏng vấn hoặc khảo sát khi chưa có bằng chứng. |
+| CP5 Quy trình | Nhờ AI tích hợp phần CP5 của Hùng vào báo cáo chung và đối chiếu nội dung. | Giúp ghép đúng mục 4.1–4.3 và kiểm tra liên kết ảnh. | Sau khi ghép, bảng phân công cũ vẫn chưa khớp phần Hùng làm. | Yêu cầu sửa TEAM.md: Hùng phụ trách quy trình CP5, hỗ trợ CP3; hai phần chưa có người nhận được ghi cần phân công lại. |
+| CP5–6 Problem Statement | Chưa có đóng góp hoặc nhật ký dùng AI riêng cho phần này. | Chưa ghi nhận. | Bảng v0 và v1 trong báo cáo chung còn trống. | Chưa ghi phần này là đã hoàn thành; cần nhóm tự viết và chốt. |
+| CP6 Mức can thiệp / quyết định | Dùng AI hỗ trợ rà soát lập luận và cách trình bày phần quyết định. | Giúp sắp xếp 4 rủi ro, bước tiếp theo và ngưỡng dừng. | Có nghiên cứu liên quan chưa đủ chứng minh giải pháp của nhóm làm được; số liệu thử nghiệm vẫn chưa có. | Giữ kết luận Not Yet, yêu cầu so sánh với mục lục/bookmark và ghi các ngưỡng là mục tiêu thử nghiệm. |
+| Bổ sung báo cáo cá nhân | Nhờ AI soạn bản nháp mục 4, 5 và 6 bằng cách viết đơn giản, dựa trên nội dung trong repo. | Giúp tổng hợp phần việc và diễn đạt ngắn gọn. | AI không biết đầy đủ trải nghiệm của tôi hoặc câu hỏi thực tế trong buổi thảo luận. | Tôi cần tự đọc lại bản nháp, sửa theo trải nghiệm thật và bổ sung những chỗ chưa ghi nhận. |
 
 ---
 
@@ -159,19 +160,35 @@ HIỆN TẠI — giả định 4 phút thao tác/đơn, chưa tính chờ trả 
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
+> Bản nháp có AI hỗ trợ theo yêu cầu của tôi, dựa trên nội dung đã có trong repo. Tôi cần tự viết lại theo trải nghiệm thật trước khi nộp để đáp ứng yêu cầu CP7.
+
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Qua các các problems của các bạn tôi nhận ra được khá nhiều ấn đề. Có những vấn đề có ở hiện tại nhưng con người vẫn đang giải quyết nhưng nhiều nơi lại thấy Ai là không cần thiết cho vấn đề đó. Có những vấn đề tồn đọng nhưng ChatBot AI vẫn có thể làm được việc đó.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có một số problems khi nói ra bọn em đã nhìn ra ngay giải pháp non AI mà không cần thực sự phải sử dụng AI. Sau đó bọn em trao đổi và cho rằng vấn đề này không thực sự phải áp dụng AI vào để cải thiện quá nhiều.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Mới đầu bọn em chọn dự án Tối ưu hóa đơn từ nhiều nguồn cho công ty nó là vấn đề thực tế mà gia đình của một bạn trong nhóm gặp phải. Nhưng sau khi tìm hiểu bọn em đã thấy có một số giải pháp có sẵn ở trên mạng nhưng nhiều công ty chưa thực sự áp dụng vào và vận hành nó.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Khi khảo sát em thấy hiện tượng thực sự không quá cao như em nghĩ vì đa số mọi người khi quên công thức đó thì ngay lúc đó họ vẫn có thể hình dung rằng thanh thời gian ở đoạn nào từ đó sẽ xem lại nhanh hơn. Chứ chưa phải họ cần dùng đến nó họ quên và cần tìm vid để học lại.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Theo em, khó nhất là xác định vấn đề có thực sự gây mất thời gian không và đo bằng cách nào. Mốc 7 phút chưa được đo thực tế, còn 2 phút chỉ là mục tiêu. Vì vậy, cần đo cả thời gian tìm và việc người học có tìm đúng đoạn cần xem không.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, em sẽ khảo sát và quan sát cách mọi người tìm video sớm hơn để biết nhu cầu có đủ lớn không. Em cũng sẽ hỏi nhóm kỹ hơn xem mục lục, bookmark đã đủ chưa và dùng AI có thực sự tiết kiệm thời gian hơn không.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán nhóm em chọn là tìm lại công thức và phần giải thích trong video bài giảng dài. Người học thường tìm transcript, tua video, kiểm tra đoạn rồi lưu mốc; bước nghẽn dự kiến là tua khi transcript thiếu công thức. Mốc 7 phút chưa được đo, còn mục tiêu là tìm đúng trong 2 phút, gồm kiểm tra, và đạt 18/20 yêu cầu trong 3 kết quả đầu. Hệ thống chỉ dùng video được phép sử dụng, không tự tạo công thức hay mốc thời gian và phải để người học kiểm tra. Nhóm đề xuất Workflow kết hợp AI và Rule nhưng vẫn cần so sánh với mục lục, bookmark. Hiện nhóm chọn Not Yet vì chưa đủ bằng chứng về nhu cầu và khả năng làm được, nên cần kiểm chứng thêm trước khi xây sản phẩm.
 
 ---
 

@@ -4,7 +4,7 @@
 
 - Tên nhóm: Nhóm E1
 - Candidate problem nhóm chọn (1 câu): Sinh viên mất thời gian tìm lại đúng đoạn kiến thức trong video bài giảng dài, nhất là khi công thức trên bảng/slide không có đầy đủ trong transcript.
-- Quyết định cuối (Go / Not Yet / No-Go): Chưa chốt, thực hiện tại CP6.
+- Quyết định cuối (Go / Not Yet / No-Go): **Not Yet** — kiểm chứng nhu cầu và khả năng tìm đúng đoạn trước khi xây dựng giải pháp AI.
 
 ## Thành viên
 
@@ -12,8 +12,8 @@
 |---:|---|---|---|---|
 | 1 | Nguyễn Đức Minh | 2A202603765 | Leader; CP3 hội tụ nhóm; CP6 quyết định; tổng hợp báo cáo | miao1114 |
 | 2 | Phạm Thế Hùng | 2A202603778 | Phân tích quy trình CP5; hỗ trợ Leader ở CP3 | thehung1406 |
-| 3 | Trương Thị Thu Hà | 2A202603780 | CP4 research; CP6 mức can thiệp, Problem Statement v1 và eval | TruongThuHa |
-| 4 | Đào Thị Ngọc Ánh | 2A202603790 | Hỗ trợ CP5 phân tích quy trình; hỗ trợ CP3 | daoanh9503 |
+| 3 | Trương Thị Thu Hà | 2A202603780 | Phân công ban đầu: CP4 research và CP6; đóng góp thực tế chờ cập nhật | TruongThuHa |
+| 4 | Đào Thị Ngọc Ánh | 2A202603790 | CP4 research; CP6 mức can thiệp, Problem Statement v1 và tiêu chí đánh giá; tham gia chọn candidate | daoanh9503 |
 
 ## Phân công theo checkpoint
 
@@ -21,15 +21,17 @@
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | Nguyễn Đức Minh | Đào Thị Ngọc Ánh; Phạm Thế Hùng hỗ trợ gom problem và làm OST; cả nhóm tham gia pitch và phản biện | Tổng hợp 12 problem, tổ chức pitch, gom cluster, xây OST, chấm 3 candidate và viết lý do chọn — mục 2 của `group_report.md` |
 | CP4 — Kiểm chứng | Chưa phân công lại | | 4–6 giả định, câu hỏi, phỏng vấn/khảo sát người thật; kết quả và bằng chứng xác nhận/phản bác — mục 3.1–3.2 |
-| CP4 — Research | Trương Thị Thu Hà | | 2–3 công cụ/giải pháp tương tự có nguồn, điểm mạnh, hạn chế và khoảng trống — mục 3.3 |
+| CP4 — Research | Đào Thị Ngọc Ánh | | Bảng đối chiếu 4 nguồn: Panopto, NotebookLM, Gemini API và EduVidQA; kết luận research — mục 3.3 |
 | CP5 — Quy trình trước/sau | Phạm Thế Hùng | Đào Thị Ngọc Ánh | Trực tiếp điền mục 4.1–4.3: As-Is, To-Be, actor, input/output, bottleneck, thời gian từng bước, bước người học kiểm tra, boundary, fallback, hai ảnh quy trình và bảng Before/After |
 | CP5 — Problem Statement v0 | Chưa phân công lại | | Actor, Quy trình, Bottleneck, Impact, Success Metric và Boundary — mục 5 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Trương Thị Thu Hà | | Ma trận; so sánh No AI/Rule/Workflow/Agent; AI Canvas; PAIR; Problem Statement v1 và 3–5 tiêu chí đánh giá — mục 6–7 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Đào Thị Ngọc Ánh | | Ma trận, so sánh 4 mức, ghi chú chi phí, AI Canvas, PAIR — mục 6.1–6.4; Problem Statement v1, bảng thay đổi dự kiến và 5 tiêu chí đánh giá — mục 7 |
 | CP6 — Quyết định | Nguyễn Đức Minh | | Phân tích Value, Usability, Feasibility, Viability; quyết định Go/Not Yet/No-Go, lý do, bước tiếp theo và ngưỡng dừng — mục 8 |
 
 **Tổng hợp:** Nguyễn Đức Minh phụ trách mục 1, 9, 10, kiểm tra toàn bài và cập nhật `TEAM.md`; đây là nhiệm vụ bổ sung ngoài CP3 và CP6.
 
 **Cập nhật phạm vi của Hùng:** Phần đã thực hiện được ghi nhận tại mục 4.1–4.3 và hai ảnh quy trình. CP3 là phần hỗ trợ theo phân công. CP4 kiểm chứng và Problem Statement v0 chưa có đóng góp được ghi nhận của Hùng; nhóm cần phân công lại hai phần này. Vai trò hỗ trợ của Ánh là phân công, chưa phải xác nhận đã hoàn thành.
+
+**Cập nhật phạm vi của Ánh:** Nội dung từ `report/team/group_report_DaothiNgocAnh.md` đã được tích hợp vào mục 3.3, mục 6, mục 7 và tài liệu tham khảo mục 10 của báo cáo chính. Đây là các phần có sản phẩm được ghi nhận của Ánh, thay cho phân công ban đầu giao Hà; đóng góp riêng của Hà cần cập nhật theo sản phẩm thực tế. Ánh cung cấp đầu vào về chi phí/quyền sử dụng video; Minh vẫn phụ trách quyết định tại mục 8. Các ngưỡng đánh giá và ước tính chi phí trong bản đóng góp còn cần kiểm chứng, thống nhất.
 
 ## Cá nhân
 
@@ -45,15 +47,25 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-Chưa cập nhật.
+- Đưa ra 3 Problem Card về chấm toán viết tay, tìm kiến thức trong video và chuẩn hóa đơn bán sỉ; card tìm kiến thức trong video được nhóm chọn để phân tích tiếp.
+- Tổng hợp 12 candidate của nhóm, chia thành 4 cluster, trình bày OST, bảng shortlist và lý do chọn/loại các hướng — mục 2.1–2.4.
+- Tổng hợp phần quyết định: đánh giá 4 rủi ro Value, Usability, Feasibility, Viability; trình bày kết luận **Not Yet**, kế hoạch kiểm chứng và ngưỡng dừng — mục 8.1–8.2.
+- Tích hợp phần quy trình CP5 của Hùng và phần research, mức can thiệp, Problem Statement v1 của Ánh vào báo cáo chung; giữ rõ phần đóng góp của từng người.
+- Tổng hợp thông tin nhóm, hạn chế, hướng tiếp theo và tài liệu tham khảo — mục 1, 9, 10; cập nhật bảng phân công và bằng chứng trong `TEAM.md`. Ghi chú các ngưỡng đánh giá chưa thống nhất giữa mục 7 và mục 8 để nhóm rà soát.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-Chưa cập nhật.
+- [CP3 — pitch, cluster, OST và shortlist, mục 2](report/team/group_report.md#2-hội-tụ-nhóm-cp3).
+- [CP6 — rủi ro, quyết định và ngưỡng dừng, mục 8](report/team/group_report.md#8-quyết-định-cp6).
+- [Hạn chế và hướng tiếp theo, mục 9](report/team/group_report.md#9-hạn-chế-và-hướng-tiếp-theo) và [tài liệu tham khảo, mục 10](report/team/group_report.md#10-tài-liệu-tham-khảo).
+- [Báo cáo cá nhân](report/individual/2A202603765_NguyenDucMinh.md): 3 Problem Card ở mục 3; nhật ký tham gia và dùng AI ở mục 4–5.
+- Commit `fdd9a9d`: cập nhật phân công, CP3 và quyết định CP6; commit `717df73`: tích hợp quy trình CP5 và đồng bộ phân công. Phần tích hợp của Ánh và các cập nhật tiếp theo được lưu trong lịch sử Git của báo cáo chung và `TEAM.md`.
 
 **Điều mình học được từ phần nhóm:**
 
-Chưa cập nhật.
+- Em nhận ra có vấn đề thực tế nhưng chưa chắc cần xây thêm AI, vì công cụ có sẵn hoặc cách làm đơn giản có thể đã đủ.
+- Khi chọn bài toán, cần kiểm chứng nhu cầu và đo thời gian thực tế trước; các mốc 7 phút và 2 phút hiện vẫn là giả định và mục tiêu.
+- Khi tổng hợp bài, em thấy cần phân công rõ và cập nhật theo phần mọi người thực sự làm để tránh ghi nhận nhầm đóng góp.
 
 ### PhamTheHung-2A202603778
 
@@ -83,8 +95,7 @@ Chưa cập nhật.
 
 **Phần việc phụ trách:**
 
-- CP4 research: tìm 2–3 công cụ/giải pháp tương tự, ghi nguồn, phân tích điểm mạnh, hạn chế và vấn đề chưa giải quyết — mục 3.3.
-- CP6: so sánh 4 mức can thiệp, lập ma trận, AI Canvas và PAIR; viết Problem Statement v1 cùng 3–5 tiêu chí đánh giá — mục 6–7.
+- Phân công ban đầu: CP4 research và CP6 — mục 3.3, 6–7. Các phần này đã có bản đóng góp của Ánh được tích hợp; phần việc và đóng góp riêng của Hà chờ cập nhật theo thực tế.
 
 **Đóng góp cụ thể:** Chưa cập nhật.
 
@@ -97,10 +108,23 @@ Chưa cập nhật.
 **Phần việc phụ trách:**
 
 - CP3: hỗ trợ leader gom cluster, xây OST và bảng chấm điểm — mục 2.2–2.3 và bảng điểm mục 2.4.
-- CP5: hỗ trợ Hùng rà soát As-Is/To-Be, bottleneck, thời gian từng bước, boundary, fallback và bảng Before/After — mục 4.1–4.3.
+- CP4 research: đối chiếu công cụ và nghiên cứu với quy trình tìm đoạn video — mục 3.3.
+- CP6: ma trận, so sánh 4 mức can thiệp, ghi chú chi phí, AI Canvas và PAIR — mục 6.1–6.4; Problem Statement v1 và tiêu chí đánh giá — mục 7.
+- CP5: hỗ trợ Hùng rà soát quy trình theo phân công; phần xây dựng mục 4.1–4.3 và hai ảnh quy trình do Hùng thực hiện.
 
-**Đóng góp cụ thể:** Chưa cập nhật.
+**Đóng góp cụ thể:**
 
-**Bằng chứng:** Chưa cập nhật.
+- Lập bảng research 4 nguồn, chỉ ra bước được hỗ trợ, điểm mạnh, khoảng trống/rủi ro và bài học cho nhóm; cung cấp mô tả quy trình để đối chiếu công cụ.
+- Viết ma trận độ mơ hồ/phức tạp, so sánh No AI/Rule/Workflow/Agent, AI Canvas và câu hỏi PAIR; đề xuất Workflow có người học kiểm tra.
+- Viết Problem Statement v1, bảng thay đổi dự kiến so với v0 và 5 tiêu chí đánh giá, kèm đề xuất bộ thử 30 câu hỏi trên 3 video.
+- Bổ sung ước tính chi phí lập chỉ mục và vấn đề quyền sử dụng video/người vận hành làm đầu vào cho đánh giá Viability; ước tính chưa được xác nhận bằng trang giá chính thức.
+
+**Bằng chứng:**
+
+- [Research — mục 3.3](report/team/group_report.md#33-research-giải-pháp-đã-có).
+- [Mức can thiệp AI — mục 6](report/team/group_report.md#6-mức-can-thiệp-ai-cp6).
+- [Problem Statement v1 và tiêu chí đánh giá — mục 7](report/team/group_report.md#7-problem-statement-v1--tiêu-chí-đánh-giá-cp6).
+- [Tài liệu tham khảo — mục 10](report/team/group_report.md#10-tài-liệu-tham-khảo).
+- [Nhật ký tham gia cá nhân — mục 4](report/individual/2A202603790_DaoThiNgocAnh.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7); nội dung bản đóng góp riêng đã được tích hợp vào báo cáo chung.
 
 **Điều mình học được từ phần nhóm:** Chưa cập nhật.

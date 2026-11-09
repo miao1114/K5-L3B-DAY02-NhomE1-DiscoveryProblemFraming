@@ -6,7 +6,7 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên: Đào Thị Ngọc Ánh
+- Họ tên: Đào Thị Ngọc Anh
 - MSSV: 2A202603790
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm E1
@@ -139,16 +139,12 @@ HIỆN TẠI — ~40 phút/yêu cầu (khóa cũ)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Chọn candidate problem | Tham gia chấm điểm shortlist. Nhóm chọn bài toán sinh viên khó tìm lại đoạn kiến thức trong video bài giảng dài, khi công thức chỉ có trên bảng/slide| Nhóm chọn candidate P4 |
+| Kiểm chứng / research | **Phụ trách CP4 Research.** Tự mở và kiểm tra 4 nguồn: Panopto Smart Search, Google NotebookLM, Gemini API video understanding, nghiên cứu EduVidQA (EMNLP 2025). Với mỗi nguồn ghi rõ giải bước nào trong quy trình, điểm mạnh, khoảng trống/rủi ro | Mục 3.3 của `group_report.md`. Kết luận: mức Rule (OCR + từ khóa) đã giải được một phần; công cụ chỉ dựa transcript không giải được ca công thức chỉ có trên bảng → nhóm thu hẹp bottleneck và không tự xây agent |
+| Quy trình nhóm | Cung cấp quy trình hiện tại 5 bước của sinh viên (mở video → nhớ mơ hồ → tìm từ khóa → tua tay → xem lại) để đối chiếu cột "Giải bước nào" trong bảng research.| Giúp chỉ ra đúng bước 3–4 là chỗ các công cụ hiện có còn bỏ trống |
+| Problem Statement | **Viết Problem Statement v1** và bảng thay đổi v0 → v1 (AI chỉ trả mốc thời gian + khung hình; bottleneck đổi thành "nội dung chỉ có trên bảng/slide"; thêm metric tỉ lệ đúng trong top 3). Viết 5 tiêu chí đánh giá đầu ra của AI | Mục 7 của `group_report.md`. Bài nhóm có metric đo được độ **đúng**, không chỉ đo thời gian |
+| Mức can thiệp AI | **Phụ trách CP6.** Đặt bài vào ma trận độ mơ hồ cao × phức tạp trung bình; so sánh 4 mức No AI / Rule / Workflow / Agent; viết AI Canvas và 2 câu hỏi Google PAIR | Mục 6.1–6.4. Nhóm chọn **Workflow** (Rule ở bước OCR, AI ở bước mô tả khung hình và so khớp câu hỏi), có lý do vì sao không chọn mức đơn giản hơn |
+| Quyết định | Ước tính chi phí lập chỉ mục video (≈ 0,4–2,4 USD/video, chỉ rẻ khi "index một lần, hỏi nhiều lần") và chỉ ra rào cản chính là quyền dùng video bài giảng, không phải tiền | Đầu vào cho dòng Viability ở mục 8.1; góp phần vào quyết định **Not Yet** của nhóm |
 
 ---
 
