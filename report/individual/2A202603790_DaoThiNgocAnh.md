@@ -6,7 +6,7 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên: Đào Thị Ngọc Anh
+- Họ tên: Đào Thị Ngọc Ánh
 - MSSV: 2A202603790
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm E1
