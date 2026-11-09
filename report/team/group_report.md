@@ -78,14 +78,14 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Học viên phải tìm lại một đoạn cụ thể trong video bài giảng ít nhất 1 lần/tuần | Value | 5 | 1 | ✅ |
+| 2 | Mỗi lần tìm mất trên 5 phút | Value | 5 | 1 | ✅ |
+| 3 | Tìm theo transcript/từ khóa thất bại vì nội dung chỉ có trên slide hoặc bảng, không được đọc ra | Value | 4 | 2 | ✅ |
+| 4 | Học viên chưa có cách khác đủ tốt (slide PDF, ghi chú, hỏi bạn/coach, mốc thời gian) | Value | 4 | 1 | ✅ |
+| 5 | Speech-to-text và OCR đủ chính xác với giọng giảng viên, chữ viết tay và công thức trên bảng | Feasibility | 5 | 1 | Thử 10 câu trên 1 video thật |
+| 6 | Nhà trường cho phép xử lý video bài giảng và sẵn sàng chi trả cho tính năng tìm kiếm | Viability | 4 | 2 | Hỏi coach sau lab |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+**Giả định nhóm kiểm chứng trong buổi này:** #1, #2, #3, #4, vì quan trọng cao nhưng chưa có bằng chứng. #5 kiểm chứng bằng bộ thử 10 câu (mục 7); #6 hỏi coach sau buổi lab.
 
 Giả định nhóm kiểm chứng trong buổi này:
 
