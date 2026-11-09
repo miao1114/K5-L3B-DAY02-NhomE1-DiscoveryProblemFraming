@@ -160,8 +160,6 @@ HIỆN TẠI — giả định 4 phút thao tác/đơn, chưa tính chờ trả 
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-> Bản nháp có AI hỗ trợ theo yêu cầu của tôi, dựa trên nội dung đã có trong repo. Tôi cần tự viết lại theo trải nghiệm thật trước khi nộp để đáp ứng yêu cầu CP7.
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
 Qua các các problems của các bạn tôi nhận ra được khá nhiều ấn đề. Có những vấn đề có ở hiện tại nhưng con người vẫn đang giải quyết nhưng nhiều nơi lại thấy Ai là không cần thiết cho vấn đề đó. Có những vấn đề tồn đọng nhưng ChatBot AI vẫn có thể làm được việc đó.
