@@ -233,6 +233,8 @@ Tôi sẽ phỏng vấn trực tiếp người dùng sớm hơn, tập trung và
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Nhóm E1 lựa chọn vấn đề sinh viên gặp khó khăn khi tìm lại nội dung trong video bài giảng dài. Quy trình hiện tại là tua video thủ công và quan sát để xác nhận đúng đoạn cần tìm. Nhóm đặt mục tiêu giảm thời gian tìm kiếm từ 2–5 phút xuống không quá 2 phút. Qua khảo sát 7 học viên, nhóm nhận thấy mức độ nghiêm trọng của vấn đề chưa được chứng minh rõ ràng. AI được cân nhắc để hỗ trợ định vị nội dung, với giới hạn chỉ trả về mốc thời gian và khung hình gốc, không tự giải thích kiến thức. Nhóm cần xác định mức can thiệp phù hợp và so sánh hiệu quả với phương án No AI và Rule. Vì vậy, nhóm quyết định Not Yet, ưu tiên đo baseline thực tế và kiểm chứng hiệu quả trước khi triển khai AI.
+
 ---
 
 ## 7. Tài liệu tham khảo
