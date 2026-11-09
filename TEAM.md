@@ -112,9 +112,9 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 - [Assumption Map — mục 3.1](report/team/group_report.md#31-assumption-map) và [survey — mục 3.2](report/team/group_report.md#32-kiểm-chứng).
 - [Problem Statement v0 — mục 5](report/team/group_report.md#5-problem-statement-v0-cp5).
 - [Báo cáo cá nhân của Hà — mục 4–5](report/individual/2A202603780_TruongThiThuHa.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7); nội dung bản đóng góp riêng đã được tích hợp vào báo cáo chung tại mục 3.1–3.2 và mục 5.
-- [Google Form](https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform) và [PR #1](https://github.com/miao1114/K5-L3B-DAY02-NhomE1-DiscoveryProblemFraming/pull/1) theo minh chứng Hà cung cấp; link form là bảng hỏi, chưa thay thế bản xuất phản hồi ẩn danh.
+- [Google Form](https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform) và [PR #1](https://github.com/miao1114/K5-L3B-DAY02-NhomE1-DiscoveryProblemFraming/pull/1) ; link form là bảng hỏi, chưa thay thế bản xuất phản hồi ẩn danh.
 
-**Điều mình học được từ phần nhóm:** Chưa cập nhật.
+**Điều mình học được từ phần nhóm:** Qua quá trình làm việc nhóm, mình học được cách phản biện, phối hợp trên GitHub và đưa ra quyết định dựa trên dữ liệu thực tế thay vì giả định cá nhân. Mình nhận ra rằng cần xác định rõ vấn đề của người dùng trước khi đề xuất giải pháp AI. Đặc biệt, kết quả khảo sát có thể phản bác giả định ban đầu, vì vậy nhóm cần linh hoạt điều chỉnh phạm vi và sẵn sàng chọn “Not Yet” khi chưa đủ bằng chứng.
 
 ### DaoThiNgocAnh-2A202603790
 
