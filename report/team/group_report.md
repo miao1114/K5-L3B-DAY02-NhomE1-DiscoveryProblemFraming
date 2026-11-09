@@ -89,18 +89,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Survey (Google Form ẩn danh, 12 câu hỏi về hành vi đã xảy ra, gửi học viên AI20K ở nhóm khác, 09/11/2026: https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform) · Phỏng vấn: đang thực hiện
-
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
-
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+Cách đã dùng: Survey (Google Form ẩn danh, 12 câu hỏi về hành vi đã xảy ra, gửi học viên AI20K ở nhóm khác, 09/11/2026: https://docs.google.com/forms/d/1S7OU5Z8xdmwR74fuGIxfLo-q06BbBohvUR3XCLs4qk4/viewform). Nhóm chọn survey thay cho phỏng vấn trong buổi lab này.
 
 Kết quả survey (n = 7):
 
@@ -123,7 +112,6 @@ Tổng hợp:
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
 | Survey | 7 | 7/7 phải tìm lại đoạn trong video, 5/7 từ 2–3 lần/tuần (xác nhận giả định #1); 6/7 vẫn tua thủ công, 2/7 không chắc tìm đúng đoạn (xác nhận #4); 7/7 đã trả tiền cho AI học tập (ủng hộ #6) | 0/7 mất trên 5 phút mỗi lần (phản bác #2); chỉ 2/7 gặp nội dung chỉ có trên slide/bảng và chỉ 1/7 thật sự dùng transcript (#3 đúng một phần); không ai cần tìm công thức; 3/7 đã dùng ChatGPT để tìm (đã có cách thay thế) |
-| Phỏng vấn | | | |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:** Survey xác nhận việc tìm lại nội dung trong video là có thật và lặp lại 2–3 lần/tuần, nhưng mỗi lần chỉ mất 2–5 phút (thấp hơn mức 7 phút nhóm ước tính) và hầu như ai cũng tìm được. Điểm nghẽn chính là tua thủ công và nhớ nội dung nằm ở video nào, không phải việc transcript bỏ sót công thức trên bảng (chỉ 2/7 gặp, 1/7 dùng transcript). Vì vậy nhóm thu hẹp problem từ "không tìm được công thức chỉ có trên bảng" thành "mất thời gian định vị đoạn code/giải thích cần xem lại trong nhiều video bài giảng", và hạ ước tính impact xuống khoảng 5–15 phút/tuần/người. Vì 3/7 đã dùng ChatGPT để tìm, nhóm sẽ so sánh với phương án No AI/Rule (mục lục mốc thời gian theo chủ đề, bật transcript) trước khi chọn mức AI.
 
