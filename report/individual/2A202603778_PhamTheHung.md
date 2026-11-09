@@ -158,7 +158,7 @@ Thời gian tìm tin và xác nhận căn còn giao dịch ghi riêng, không c�
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | | |
-| Quy trình nhóm | | |
+| Quy trình nhóm | Phụ trách Thành viên 4; dùng AI hỗ trợ tạo bản nháp As-Is/To-Be và điền mục 4.1–4.3 cho bài toán tìm lại đoạn kiến thức trong video. Yêu cầu mục 2 chỉ hỗ trợ Leader, không trực tiếp điền. | Có bảng từng bước, ảnh quy trình, Before/After, boundary và phương án quay về; điền phân bổ thời gian theo từng bước, tổng 7 phút, và giữ 2 phút là mục tiêu To-Be. Cần tự kiểm từng bước và đối chiếu dữ liệu CP4 trước khi nhóm chốt. |
 | Problem Statement | | |
 | Mức can thiệp AI | | |
 | Quyết định | | |
@@ -172,7 +172,7 @@ Thời gian tìm tin và xác nhận căn còn giao dịch ghi riêng, không c�
 | CP1 Scan | Nhờ AI mở rộng các problem ngoài tuyển dụng và so sánh các lựa chọn. | Giúp mô tả Job Story và đề xuất dấu hiệu cần đo. | Các gợi ý chưa phải bằng chứng thực tế. | Chọn 5 problem thuộc học tập, tuyển dụng và bất động sản; cung cấp bối cảnh Minh. |
 | CP2 Problem Card | Nhờ AI cập nhật top 3 theo danh sách đã chốt, trình bày theo bài mẫu và phản biện. | Làm rõ actor, quy trình, metric và phương án không dùng AI. | Bản trước đặt nghi vấn số liệu đã cung cấp; các bước con vẫn là bản nháp cần kiểm tra; số liệu học tập/bất động sản được AI thêm dưới dạng giả định minh họa theo yêu cầu. | Yêu cầu giữ số liệu cung cấp, sửa cột “Điều còn chưa chắc”; chốt top 3 đối chiếu CV, tìm tài liệu và đối chiếu căn hộ. |
 | CP4 Research | | | | |
-| CP5 Quy trình | | | | |
+| CP5 Quy trình | Nhờ AI đọc tài liệu, lập kế hoạch rồi hỗ trợ điền mục 4.1–4.3 và tạo ảnh As-Is/To-Be từ Problem Card #2 của Minh. | Làm rõ actor, input/output, thời gian, bottleneck, nhánh xác nhận và quay về; tách công lập chỉ mục khỏi thời gian mỗi lượt tìm. | Kế hoạch ban đầu cần làm rõ phần hỗ trợ CP3 với phần trực tiếp điền; cần phân biệt dữ liệu đầu vào và mục tiêu To-Be. | Yêu cầu sửa phạm vi: mục 2 chỉ hỗ trợ Leader; trực tiếp làm mục 4.1–4.3 và ảnh cp5-workflow-future.png. Chỉnh bản CP5: điền phân bổ thời gian theo từng bước, tổng 7 phút, và giữ 2 phút là mục tiêu; đồng bộ bảng và ảnh. |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
 
@@ -184,17 +184,31 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Qua các Problem Card của các bạn, tôi thấy một vấn đề cần được mô tả bằng người gặp vấn đề, hoàn cảnh và bước đang bị nghẽn. Những bài toán như debug notebook, thanh toán viện phí hay tìm đoạn bài giảng có bối cảnh khác nhau nhưng đều cần phân tích quy trình trước khi đề xuất giải pháp. Tôi học được cách thu hẹp vấn đề để có thể kiểm chứng và đo kết quả.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Ở phần CP5, điểm tôi cần cảnh giác là đi thẳng vào Workflow AI mà chưa làm rõ vì sao người học tìm đoạn video khó. Tôi tập trung mô tả As-Is trước: tìm transcript, tua video, xem lại và xác nhận đoạn. Quy trình này giúp chỉ ra chỗ AI có thể hỗ trợ, đồng thời vẫn giữ phương án mục lục, bookmark hoặc tìm từ khóa để nhóm so sánh.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Một điểm tôi làm rõ khi rà soát bài là tiêu chí “tìm đúng đoạn”. Chỉ trả về hình có công thức chưa đáp ứng đủ nhu cầu; đoạn đó phải chứa phần giải thích liên quan. Vì vậy, tôi đưa bước người học mở video để xác nhận vào To-Be và tính cả thời gian kiểm tra trong mục tiêu thời gian tìm kiếm.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Phần kiểm chứng trong báo cáo hiện chưa được cập nhật nên tôi chưa thể nêu kết luận từ phỏng vấn hoặc khảo sát. Khi phân tích quy trình, điều tôi chú ý là transcript có thể chưa phản ánh đầy đủ công thức trên bảng hoặc slide. Đây là điểm cần kiểm chứng với người học để biết tìm từ khóa đã đủ hay cần kết hợp thông tin hình ảnh.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Với phần phân tích quy trình của tôi, khó nhất là làm rõ bottleneck và cách đo để cung cấp đầu vào cho Problem Statement. “Tìm video mất thời gian” còn quá rộng; cần xác định người học mất thời gian ở bước tìm transcript, tua video hay xác nhận đoạn. Metric cũng cần đo cả tốc độ và độ đúng, vì trả kết quả nhanh nhưng thiếu phần giải thích vẫn chưa giải quyết được vấn đề.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Tôi sẽ ưu tiên quan sát một lần tìm đoạn thực tế và ghi thời gian từng bước trước khi hoàn thiện bảng Before/After. Tôi sẽ hỏi rõ mục lục và bookmark đã giải quyết được phần nào, trường hợp nào vẫn cần AI. Tôi cũng sẽ kiểm tra kỹ công chuẩn bị chỉ mục, thời gian người học xác nhận kết quả và cách xử lý khi hệ thống tìm sai.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán của nhóm là giúp sinh viên tìm lại đúng công thức và phần giải thích trong video bài giảng dài 90 phút. Quy trình hiện tại gồm xác định nội dung, tìm transcript, tua video, xác nhận đoạn và lưu mốc. Bottleneck được phân tích là bước tua và quan sát khi transcript không chứa đủ nội dung trên hình. Mục tiêu đề xuất là tìm và lưu được đoạn đúng trong không quá 2 phút, đồng thời kiểm tra khả năng tìm đúng đoạn trong các kết quả đầu. Boundary yêu cầu hệ thống chỉ trả đoạn có căn cứ từ video được cung cấp và người học phải kiểm tra trước khi sử dụng. Phương án CP5 đang đề xuất là Workflow có AI hỗ trợ tìm đoạn, kết hợp Rule kiểm tra mốc thời gian và tạo liên kết. Nhóm cần dùng kết quả kiểm chứng và so sánh với phương án đơn giản hơn để chốt mức can thiệp cùng quyết định cuối.
 
 ---
 
