@@ -174,16 +174,18 @@ Tổng: 30 phút/lần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| **Pitch Problem Card** | Pitch Card #1 “Debug lỗi notebook”, với giả định mất khoảng 90 phút/lần, 3–4 lần/tuần. Đặt câu hỏi phản biện: “Liệu AI phân tích và gợi ý sửa lỗi notebook có thực sự giảm thời gian debug từ 90 phút xuống dưới 20 phút so với checklist/debugger?” | Card #1 không được chọn. Nhóm thống nhất lựa chọn P4 về tìm lại nội dung trong video bài giảng dài. |
+| **Phản biện bài của bạn khác** | Đặt 4 câu hỏi trong quá trình thảo luận P4: (1) Độ chính xác của speech-to-text khi video không có phụ đề, giảng viên phát âm không rõ và OCR đa ngôn ngữ; (2) Có nên gợi ý kiến thức liên quan hay không; (3) User research đã chứng minh người dùng có nhu cầu đủ lớn để trả phí chưa; (4) Đã xác định ngưỡng sai số và độ chính xác của AI chưa? | Câu 1 góp phần hình thành giả định #5 về Feasibility. Câu 3 góp phần hình thành giả định #6 về Viability và câu 11 trong survey. Câu 2 được đối chiếu với kết quả survey (1/7 người gặp khó khăn ở bước xem lại để hiểu), hỗ trợ quyết định giữ phạm vi “tìm lại” thay vì “giải thích”. Câu 4 đã được đề xuất để bổ sung tiêu chí đánh giá AI nhưng chưa đưa vào bài nhóm. |
+| **Nhận phản biện** | Có pitch Card #1 để nhóm xem xét, nhưng không ghi lại được câu hỏi phản biện cụ thể từ các thành viên. | Không ghi nhận nội dung chỉnh sửa trực tiếp từ phản biện vì thiếu thông tin xác minh. |
+| **Gom cluster / cây OST** | Không trực tiếp phụ trách. Leader và Thành viên 4 thực hiện. | — |
+| **Chọn Candidate Problem** | Trực tiếp tham gia thảo luận, phản biện và lựa chọn P4 cùng nhóm. Đóng góp góc nhìn về tính khả thi kỹ thuật, nhu cầu người dùng và phạm vi giải pháp. | Nhóm thống nhất lựa chọn P4 để tiếp tục kiểm chứng bằng user research. |
+| **Kiểm chứng / Research** | Phụ trách CP4: xây dựng Assumption Map với 6 giả định; thiết kế Google Form gồm 12 câu theo nguyên tắc The Mom Test; thu thập 7 phản hồi từ học viên nhóm khác; tổng hợp kết quả và phân loại tín hiệu xác nhận/phản bác. Tạo PR #1 trên GitHub. Ngoài ra, nghiên cứu 5 công cụ tương tự gồm Panopto, NotebookLM, Ask YouTube, ClassTranscribe và TwelveLabs; hoàn thành bộ 5 slide và gửi Thành viên 3 tham khảo. | Kết quả survey phản bác giả định #2: 0/7 người báo cáo mất trên 5 phút và không có người tham gia nào nêu nhu cầu tìm công thức. Nhóm điều chỉnh problem theo hướng “định vị đoạn code/giải thích trong nhiều video”, đồng thời hạ ước tính impact xuống khoảng 5–15 phút/tuần/người (ước tính cần kiểm chứng thêm). Kết quả 7/7 từng trả phí cho AI học tập chỉ là tín hiệu tham khảo, chưa chứng minh sẵn sàng trả phí cho giải pháp P4. |
+| **Quy trình nhóm** | Không trực tiếp phụ trách. Thành viên 4 thực hiện. | — |
+| **Problem Statement** | Phụ trách xây dựng Problem Statement v0, sử dụng kết quả survey làm baseline và điều chỉnh phạm vi vấn đề theo bằng chứng thu thập được. | Đang thực hiện; chưa ghi nhận là bản hoàn thành. |
+| **Mức can thiệp AI** | Không trực tiếp phụ trách (Thành viên 3 thực hiện). Đóng góp phản biện về độ chính xác của speech-to-text, OCR và tiêu chí đánh giá AI. | Đã đề xuất xem xét giới hạn kỹ thuật và tiêu chí chất lượng AI; phần tiêu chí đánh giá chưa được tích hợp vào bài nhóm. |
+| **Quyết định** | Không phụ trách tổng hợp quyết định cuối cùng (Leader thực hiện). Có tham gia thảo luận lựa chọn P4. | Đóng góp ý kiến và bằng chứng research phục vụ việc xác định phạm vi vấn đề. |
+
+**Minh chứng:** [Pull Request #1 – CP4 Research](https://github.com/miao1114/K5-L3B-DAY02-NhomE1-DiscoveryProblemFraming/pull/1)
 
 ---
 
