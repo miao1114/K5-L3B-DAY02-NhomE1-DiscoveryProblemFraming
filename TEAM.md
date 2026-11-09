@@ -112,12 +112,13 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 - CP6: ma trận, so sánh 4 mức can thiệp, ghi chú chi phí, AI Canvas và PAIR — mục 6.1–6.4; Problem Statement v1 và tiêu chí đánh giá — mục 7.
 - CP5: hỗ trợ Hùng rà soát quy trình theo phân công; phần xây dựng mục 4.1–4.3 và hai ảnh quy trình do Hùng thực hiện.
 
-**Đóng góp cụ thể:**
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- Lập bảng research 4 nguồn, chỉ ra bước được hỗ trợ, điểm mạnh, khoảng trống/rủi ro và bài học cho nhóm; cung cấp mô tả quy trình để đối chiếu công cụ.
-- Viết ma trận độ mơ hồ/phức tạp, so sánh No AI/Rule/Workflow/Agent, AI Canvas và câu hỏi PAIR; đề xuất Workflow có người học kiểm tra.
-- Viết Problem Statement v1, bảng thay đổi dự kiến so với v0 và 5 tiêu chí đánh giá, kèm đề xuất bộ thử 30 câu hỏi trên 3 video.
-- Bổ sung ước tính chi phí lập chỉ mục và vấn đề quyền sử dụng video/người vận hành làm đầu vào cho đánh giá Viability; ước tính chưa được xác nhận bằng trang giá chính thức.
+- Tìm, tự mở và kiểm tra 4 nguồn: Panopto Smart Search, Google NotebookLM, Gemini video understanding, nghiên cứu EduVidQA (EMNLP 2025); ghi mỗi nguồn giải bước nào, còn bỏ trống bước nào.
+- Rút ra kết luận research: mức Rule (OCR + từ khóa) đã giải được một phần bài toán; công cụ chỉ dựa transcript không giải được ca công thức chỉ có trên bảng/slide; không tự xây agent, không tự huấn luyện mô hình.
+- So sánh 4 mức, chọn Workflow (chỉ dùng làm mẫu thử bằng công cụ sẵn có, khớp quyết định Not Yet), giải thích vì sao không chọn mức đơn giản hơn; dùng mục lục/bookmark làm baseline No AI.
+- Ước tính chi phí lập chỉ mục video (khoảng 0,4–2,4 USD/video), làm đầu vào cho dòng Viability ở mục 8.1.
+- Viết Problem Statement v1, bảng thay đổi v0 → v1 và 5 tiêu chí đánh giá trên bộ 20 yêu cầu tìm kiếm, dùng cùng ngưỡng với mục 8.2 (≥ 18/20 đúng trong top 3, thời gian trung vị dưới 2 phút, giảm ≥ 30% so với mục lục/bookmark).
 
 **Bằng chứng:**
 
@@ -127,4 +128,7 @@ Phần việc dưới đây là phân công. Mỗi thành viên tự cập nhậ
 - [Tài liệu tham khảo — mục 10](report/team/group_report.md#10-tài-liệu-tham-khảo).
 - [Nhật ký tham gia cá nhân — mục 4](report/individual/2A202603790_DaoThiNgocAnh.md#4-tôi-đã-tham-gia-phần-nào-cp3--cp7); nội dung bản đóng góp riêng đã được tích hợp vào báo cáo chung.
 
-**Điều mình học được từ phần nhóm:** Chưa cập nhật.
+**Điều mình học được từ phần nhóm:**
+Muốn tìm đúng bước nghẽn thì phải tách quy trình thành từng bước, có người làm, đầu vào, đầu ra và thời gian. Thời gian tua video ở đoạn công thức không có trong transcript cần đo riêng.
+Chỉ tìm ra khung hình công thức là chưa đủ: người học còn cần đoạn giảng liên quan, mốc thời gian và nguồn video để tự kiểm tra lại.
+Quy trình mới vẫn cần người xác nhận kết quả và cách quay về tìm thủ công khi hệ thống sai hoặc lỗi. Thời gian kiểm tra lại phải tính vào tổng thời gian tìm.
