@@ -124,7 +124,7 @@ Tổng hợp:
 
 ## 4. Quy trình trước/sau (CP5)
 
-**Bài toán:** Khi làm bài tập từ một video bài giảng Toán dài 90 phút, sinh viên cần tìm lại đúng đoạn có công thức và phần giải thích liên quan để tiếp tục làm bài.
+**Bài toán:** Khi làm bài tập/lab từ một video bài giảng dài khoảng 90 phút của khóa học (lập trình, AI), học viên cần tìm lại đúng đoạn code, công thức hoặc phần giải thích liên quan để tiếp tục làm bài.
 
 **Phạm vi:** Một video có transcript nhưng chưa có mục lục chi tiết, người học có quyền sử dụng; công thức có thể chỉ xuất hiện trên bảng/slide và không được đọc đầy đủ. Quy trình bắt đầu khi người học xác định nhu cầu tìm lại kiến thức và kết thúc khi đã xác nhận đúng đoạn, lưu mốc rồi quay lại bài tập.
 
@@ -140,9 +140,9 @@ Tổng hợp:
 | 4. Xem và xác nhận đoạn giải thích | Sinh viên | Đoạn nghi ngờ từ bước 2 hoặc 3 | Xác nhận đúng công thức và đúng phần giải thích; hoặc xác định chưa đúng | 1 phút | Đúng thì sang bước 5; chưa đúng thì quay lại bước 3. Chỉ thấy công thức chưa được tính là tìm thành công. |
 | 5. Ghi mốc và quay lại bài tập | Sinh viên | Đoạn đã xác nhận; mốc bắt đầu–kết thúc | Bookmark/ghi chú có mốc thời gian; tiếp tục làm bài | 30 giây | Cùng một sinh viên thực hiện cả 5 bước, không có chuyển giao giữa người. |
 
-**Tổng thời gian phân bổ:** 30 giây + 1 phút + 4 phút + 1 phút + 30 giây = **7 phút/lần tìm**, cho luồng đi qua bước tua video và xác nhận đúng sau một lượt.
+**Tổng thời gian phân bổ:** 30 giây + 1 phút + 4 phút + 1 phút + 30 giây = **7 phút/lần tìm**, cho luồng đi qua bước tua video và xác nhận đúng sau một lượt. Đây là ước tính cho **tình huống khó nhất** (phải tua để tìm nội dung chỉ có trên bảng/slide). Theo survey CP4 (n = 7, mục 3.2), tình huống thường gặp mất **2–5 phút/lần** (5/7; 0/7 trên 5 phút), nội dung cần tìm chủ yếu là đoạn code và phần giải thích khái niệm, không ai nhắc tới công thức.
 
-**Bottleneck chính:** Bước 3 — tua video và quan sát bảng/slide. Khi công thức trên hình không được đọc đầy đủ, tìm từ khóa trong transcript không đủ để định vị; người học phải mở và kiểm tra nhiều mốc trước khi đến được phần giải thích cần xem.
+**Bottleneck chính:** Bước 3 — tua video và quan sát bảng/slide. Khi công thức trên hình không được đọc đầy đủ, tìm từ khóa trong transcript không đủ để định vị; người học phải mở và kiểm tra nhiều mốc trước khi đến được phần giải thích cần xem. Survey CP4 xác nhận: 4/7 chọn bước tua tìm đúng đoạn là tốn thời gian nhất, 2/7 chọn bước nhớ nội dung nằm ở video nào.
 
 **Cách đọc sơ đồ:** Nếu tìm được ngay bằng transcript thì bỏ qua bước 3; nếu đoạn chưa đúng thì quay lại bước 3. Các lượt phải lặp lại hoặc không tìm được được ghi riêng khi theo dõi quy trình.
 
@@ -184,7 +184,7 @@ Lượt phải quay về được ghi là **lượt dùng phương án thủ cô
 | Chỉ số | Trước — phân bổ thời gian | Sau — mục tiêu | Ghi chú / cách kiểm soát |
 |---|---|---|---|
 | Số bước trên luồng tìm thành công | 5, khi phải tua video | 4 | Đếm theo các bước đánh số trên sơ đồ, không tính nút rẽ nhánh hoặc công chuẩn bị một lần. Luồng transcript tìm được ngay có 4 bước; lượt lặp/quay về ghi riêng. |
-| Tổng thời gian/lần tìm | 7 phút | Không quá 2 phút, gồm mở và kiểm tra đoạn, lưu mốc, quay lại bài tập | Khi kiểm tra, bấm giờ từ lúc bắt đầu tìm đến khi lưu được đoạn đúng và quay lại bài tập, tính cả thời gian chờ và tìm lại. Nếu transcript tìm được ngay thì bỏ thời gian tua video. |
+| Tổng thời gian/lần tìm | 7 phút (tình huống khó nhất); 2–5 phút thường gặp theo survey | Không quá 2 phút, gồm mở và kiểm tra đoạn, lưu mốc, quay lại bài tập | Khi kiểm tra, bấm giờ từ lúc bắt đầu tìm đến khi lưu được đoạn đúng và quay lại bài tập, tính cả thời gian chờ và tìm lại. Nếu transcript tìm được ngay thì bỏ thời gian tua video. |
 | Số bước thủ công | 5/5 | 3/4 | Nhập yêu cầu, kiểm tra và lưu mốc vẫn do người học thực hiện. Nếu quay về As-Is thì ghi thêm thao tác thực tế. |
 | Bottleneck chính | Tua video và quan sát bảng/slide | Người học kiểm tra đoạn: mục tiêu 1 phút | Giữ bước kiểm tra để tránh nhận nhầm công thức hoặc thiếu ngữ cảnh. |
 | Rủi ro tìm sai hoặc thiếu phần giải thích | Người học có thể bỏ sót đoạn khi tua | AI có thể gợi ý sai đoạn hoặc chỉ tìm thấy hình công thức | Hiển thị khung hình và mốc thời gian; người học mở video để xác nhận cả phần giải thích. |
