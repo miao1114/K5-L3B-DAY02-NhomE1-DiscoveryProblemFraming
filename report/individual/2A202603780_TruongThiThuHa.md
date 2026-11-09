@@ -174,16 +174,18 @@ Tổng: 30 phút/lần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| **Pitch Problem Card** | Pitch Card #1 “Debug lỗi notebook”, với giả định mất khoảng 90 phút/lần, 3–4 lần/tuần. Đặt câu hỏi phản biện: “Liệu AI phân tích và gợi ý sửa lỗi notebook có thực sự giảm thời gian debug từ 90 phút xuống dưới 20 phút so với checklist/debugger?” | Card #1 không được chọn. Nhóm thống nhất lựa chọn P4 về tìm lại nội dung trong video bài giảng dài. |
+| **Phản biện bài của bạn khác** | Đặt 4 câu hỏi trong quá trình thảo luận P4: (1) Độ chính xác của speech-to-text khi video không có phụ đề, giảng viên phát âm không rõ và OCR đa ngôn ngữ; (2) Có nên gợi ý kiến thức liên quan hay không; (3) User research đã chứng minh người dùng có nhu cầu đủ lớn để trả phí chưa; (4) Đã xác định ngưỡng sai số và độ chính xác của AI chưa? | Câu 1 góp phần hình thành giả định #5 về Feasibility. Câu 3 góp phần hình thành giả định #6 về Viability và câu 11 trong survey. Câu 2 được đối chiếu với kết quả survey (1/7 người gặp khó khăn ở bước xem lại để hiểu), hỗ trợ quyết định giữ phạm vi “tìm lại” thay vì “giải thích”. Câu 4 đã được đề xuất để bổ sung tiêu chí đánh giá AI nhưng chưa đưa vào bài nhóm. |
+| **Nhận phản biện** | Có pitch Card #1 để nhóm xem xét, nhưng không ghi lại được câu hỏi phản biện cụ thể từ các thành viên. | Không ghi nhận nội dung chỉnh sửa trực tiếp từ phản biện vì thiếu thông tin xác minh. |
+| **Gom cluster / cây OST** | Không trực tiếp phụ trách. Leader và Thành viên 4 thực hiện. | — |
+| **Chọn Candidate Problem** | Trực tiếp tham gia thảo luận, phản biện và lựa chọn P4 cùng nhóm. Đóng góp góc nhìn về tính khả thi kỹ thuật, nhu cầu người dùng và phạm vi giải pháp. | Nhóm thống nhất lựa chọn P4 để tiếp tục kiểm chứng bằng user research. |
+| **Kiểm chứng / Research** | Phụ trách CP4: xây dựng Assumption Map với 6 giả định; thiết kế Google Form gồm 12 câu theo nguyên tắc The Mom Test; thu thập 7 phản hồi từ học viên nhóm khác; tổng hợp kết quả và phân loại tín hiệu xác nhận/phản bác. Tạo PR #1 trên GitHub. Ngoài ra, nghiên cứu 5 công cụ tương tự gồm Panopto, NotebookLM, Ask YouTube, ClassTranscribe và TwelveLabs; hoàn thành bộ 5 slide và gửi Thành viên 3 tham khảo. | Kết quả survey phản bác giả định #2: 0/7 người báo cáo mất trên 5 phút và không có người tham gia nào nêu nhu cầu tìm công thức. Nhóm điều chỉnh problem theo hướng “định vị đoạn code/giải thích trong nhiều video”, đồng thời hạ ước tính impact xuống khoảng 5–15 phút/tuần/người (ước tính cần kiểm chứng thêm). Kết quả 7/7 từng trả phí cho AI học tập chỉ là tín hiệu tham khảo, chưa chứng minh sẵn sàng trả phí cho giải pháp P4. |
+| **Quy trình nhóm** | Không trực tiếp phụ trách. Thành viên 4 thực hiện. | — |
+| **Problem Statement** | Phụ trách xây dựng Problem Statement v0, sử dụng kết quả survey làm baseline và điều chỉnh phạm vi vấn đề theo bằng chứng thu thập được. | Đang thực hiện; chưa ghi nhận là bản hoàn thành. |
+| **Mức can thiệp AI** | Không trực tiếp phụ trách (Thành viên 3 thực hiện). Đóng góp phản biện về độ chính xác của speech-to-text, OCR và tiêu chí đánh giá AI. | Đã đề xuất xem xét giới hạn kỹ thuật và tiêu chí chất lượng AI; phần tiêu chí đánh giá chưa được tích hợp vào bài nhóm. |
+| **Quyết định** | Không phụ trách tổng hợp quyết định cuối cùng (Leader thực hiện). Có tham gia thảo luận lựa chọn P4. | Đóng góp ý kiến và bằng chứng research phục vụ việc xác định phạm vi vấn đề. |
+
+**Minh chứng:** [Pull Request #1 – CP4 Research](https://github.com/miao1114/K5-L3B-DAY02-NhomE1-DiscoveryProblemFraming/pull/1)
 
 ---
 
@@ -191,12 +193,13 @@ Tổng: 30 phút/lần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Tự liệt kê các vấn đề trước; dùng ChatGPT gợi ý thêm ý và dùng Claude chuyển ý thô sang mẫu Job Story "Khi… tôi muốn… để…" | Chuẩn hóa cách viết, chỉ ra dòng còn chứa chữ "AI" hoặc thiếu dấu hiệu thật | AI gợi ý "xây dựng AI Learning Assistant", là giải pháp chứ chưa phải vấn đề; các con số AI đưa ra chỉ là ước lượng chung | Bỏ ý giải pháp; tự thêm ví dụ thật (lab KNN và LLM ngày 06/11); ghi rõ số nào là ước tính |
+| CP2 Problem Card | Dùng Claude dựng khung 3 Problem Card và quy trình nháp; dùng ChatGPT đóng vai "PM hoài nghi" phản biện card #1 | Phản biện của ChatGPT chỉ ra baseline 90 phút chưa đo, thiếu phương án không dùng AI, rủi ro AI sửa sai làm học viên không hiểu bài | Khung do AI dựng để trống số phút, AI không biết trải nghiệm thật của tôi; một số phản biện chung chung, áp dụng cho card nào cũng được | Tự điền số phút từng bước theo trải nghiệm; giới hạn vai trò AI chỉ cho lỗi khó, gợi ý từng bước, không viết lại cả bài |
+| CP4 Research | Dùng Claude soạn câu hỏi survey theo The Mom Test và tạo Google Form, đếm và tổng hợp 7 phản hồi, tìm 5 công cụ tương tự kèm nguồn và làm 5 slide; dùng ChatGPT soạn kịch bản phỏng vấn | Tạo form nhanh, đếm số liệu chính xác, tìm được công cụ thật kèm link nguồn | ChatGPT tạo 2 bài "phỏng vấn mẫu" mang tính giả định, không phải dữ liệu thật; nhiều ô trong bảng so sánh công cụ chỉ ghi "chưa rõ" vì nguồn không nói | Không đưa phỏng vấn giả định vào bài, chọn survey thay phỏng vấn; giữ nguyên ô "chưa rõ" thay vì đoán; tự đọc kết quả survey và đề xuất thu hẹp problem |
+| CP5 Quy trình | Không phụ trách (Thành viên 4), không dùng AI cho phần này | — | — | — |
+| CP5–6 Problem Statement | Chưa thực hiện (đang làm v0) | — | — | — |
+| CP6 Mức can thiệp / quyết định | Dùng Claude để kiểm tra các câu phản biện của tôi về speech-to-text, OCR, khả năng trả tiền và ngưỡng sai số | Gợi ý boundary "AI chỉ trả mốc thời gian kèm ảnh khung hình gốc", và cách đo độ chính xác (tìm đúng trong top 3, lệch ≤ 30 giây) | Các ngưỡng (8/10, 30 giây) chỉ là đề xuất, chưa có dữ liệu thử thật | Ghi là đề xuất, chưa đưa vào bài nhóm; để Thành viên 3 quyết định sau khi thử trên video thật |
+| CP7 Tổng hợp đóng góp (mục 4) | Dùng ChatGPT chỉnh câu chữ bảng đóng góp | Câu văn rõ ràng, đủ ý | ChatGPT thêm đoạn "Tổng kết" và "Bài học rút ra" chung chung, không phải lời của tôi | Bỏ hai đoạn đó, chỉ giữ việc tôi đã làm thật |
 
 ---
 
