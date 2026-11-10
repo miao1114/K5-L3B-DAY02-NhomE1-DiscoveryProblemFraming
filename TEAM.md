@@ -3,7 +3,7 @@
 ## Thông tin nhóm
 
 - Tên nhóm: Nhóm E1
-- Candidate problem nhóm chọn (1 câu): Học viên AI20K mất thời gian định vị đoạn code hoặc phần giải thích cần xem lại trong video bài giảng; ưu tiên kiểm chứng mục lục và transcript theo kết quả survey.
+- Candidate problem nhóm chọn (1 câu): Sinh viên mất thời gian tìm lại đúng đoạn kiến thức cần xem trong video bài giảng để tiếp tục học và làm bài tập.
 - Quyết định cuối (Go / Not Yet / No-Go): **Not Yet** — kiểm chứng nhu cầu và khả năng tìm đúng đoạn trước khi xây dựng giải pháp AI.
 
 ## Thành viên
