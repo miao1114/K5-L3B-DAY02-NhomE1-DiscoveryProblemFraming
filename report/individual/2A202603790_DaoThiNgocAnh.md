@@ -152,12 +152,12 @@ HIỆN TẠI — ~40 phút/yêu cầu (khóa cũ)
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Không dùng AI ở CP1, 5 vấn đề lấy từ trải nghiệm/quan sát của tôi| | | |
+| CP2 Problem Card | Nhờ AI đóng vai người phản biện khắt khe cho 3 Problem Card | Chỉ ra điểm yếu tôi chưa thấy: card #1 có thể chỉ cần tích hợp HIS; card #2 bỏ qua việc hóa đơn điện tử đã có file XML; card #3 vướng dữ liệu cá nhân sinh viên | Phản biện còn chung chung: AI không biết tỷ lệ hóa đơn giấy thực tế còn lại, cũng không biết 2–3 giờ chờ nằm ở khâu thanh toán hay khâu khác. AI chỉ nêu câu hỏi, không có bằng chứng | Không bỏ card #1 mà giữ lại, thu hẹp vai trò AI chỉ còn bước cảnh báo sai/sót BHYT, đổi cảm nhận nhanh sang Workflow (chủ yếu Rule). Đưa các con số chưa chắc vào danh sách cần kiểm chứng |
+| CP4 Research | có dùng AI để tìm nguồn tương tự mà đề tài nhóm đang làm. AI gợi ý tên công cụ, tôi tự mở link kiểm tra| Tổng hợp nhanh chóng, đúng trọng tâm tôi muốn hỏi | AI nói một công cụ "phân tích được hình ảnh video" nhưng khi tự đọc bài viết gốc của NotebookLM thì chỉ thấy nói trích dẫn transcript; giá Gemini lấy từ trang tổng hợp, chưa đối chiếu trang chính thức | Chỉ giữ thông tin tôi tự mở nguồn gốc kiểm tra được; ghi rõ chỗ nào chưa chắc |
+| CP5 Quy trình |phần này tôi không phụ trách chính, có dùng AI không?| | | |
+| CP5–6 Problem Statement | có nhờ AI phản biện Problem Statement v0 | không hời hợt | AI đề xuất metric chỉ đo thời gia | Thêm metric tỉ lệ đúng trong top 3 và tách riêng câu hỏi "chỉ có trên bảng/slide", vì chỉ đo thời gian thì không biết AI có tìm **đúng** không |
+| CP7 Viết báo cáo | Dùng Claude để điền nháp mục 4 từ phần việc đã ghi trong `TEAM.md` và để viết gọn lại mục "Điều mình học được" | Gom nhanh đóng góp của tôi trong `group_report.md` thành bảng có dẫn mục | AI không biết các câu hỏi phản biện đã diễn ra trong buổi họp nên không điền được; có chỗ viết "phần giải thích" dễ mâu thuẫn với boundary "AI không tự giải thích" của nhóm | Tự điền các câu hỏi phản biện; sửa thành "đoạn giảng liên quan" cho khớp boundary; mục 6 tự viết |
 
 ---
 
@@ -167,19 +167,32 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Các bạn đều đưa ra các problems đúng với thực tế hiện tại, đó đều là vấn đề mà nhiều người đang nhức nhối._
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Nhóm không, đều nghĩ đến bài toán trước, nhưng có thể chưa đủ trải nghiệm để đặt được hết ra vấn đề của bài toán.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Tôi không
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Tôi tìm hiểu thì NotebookLM chỉ trích dẫn transcript, không xử lý công thức trên bảng; Panopto (Rule: OCR + từ khóa) đã giải được một phần;
 
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+ Chọn metric: chỉ đo thời gian thì không biết AI tìm đúng hay sai, nên phải thêm "đúng trong top 3" và tách câu hỏi "chỉ có trên bảng". 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Phỏng vấn sinh viên sớm hơn để có baseline thật thay vì ước tính thời gian. Hỏi mạnh hơn câu "sinh viên có tìm được bằng từ khóa không" trước khi chọn Workflow.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+> problem (tìm đoạn có công thức chỉ trên bảng/slide) → quy trình (tua tay ở bước 3–4) → metric (< 2 phút, đúng trong top 3) → boundary (không giải thích thay giảng viên, không bịa mốc, trợ giảng duyệt) → Workflow (Rule OCR + AI so khớp) → Not Yet (chưa có baseline, chưa có quyền dùng video).
+
 ---
+
+## 7. Tài liệu tham khảo
 
 ## 7. Tài liệu tham khảo
 
